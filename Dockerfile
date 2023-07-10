@@ -22,6 +22,8 @@ RUN composer global require drush/drush && \
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install composer merge plugin 
+RUN composer config --no-plugins allow-plugins.wikimedia/composer-merge-plugin true
+
 RUN composer require wikimedia/composer-merge-plugin
 
 # Modify composer.json
@@ -38,13 +40,10 @@ RUN composer require 'drupal/smtp:^1.2' # To send emails via sendinblue
 RUN composer require 'drupal/group:^3.1' # To enable group feature
 RUN composer require 'drupal/viewsreference:^2.0@beta' # Add views reference field
 RUN composer require 'drupal/views_add_button:^2.0' # To create the add patient functionality in group pages
-RUN composer require 'drupal/views_add_button_group:^2.0' # To create add patient functionality in group pages.
+# RUN composer require 'drupal/views_add_button_group:^2.0' # To create add patient functionality in group pages.
 RUN composer require 'drupal/webform_views:^5.1' # To add functionality of webform with views
 RUN composer require 'drupal/role_delegation:^1.2' # To ensure doctors and coordinators can assign roles to patients
 RUN composer require 'drupal/super_login:^2.1' # To use superlogin with drupal 
 RUN composer require 'drupal/login_redirect_per_role:^1.9' # To ensure patients are redirected to the correct page after logging in
 RUN composer require 'drupal/token:^1.12' # Install token module
 RUN composer require 'drupal/masquerade:^2.0@RC' # To install masquarade module
-
-
-
