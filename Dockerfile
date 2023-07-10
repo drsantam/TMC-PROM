@@ -47,3 +47,4 @@ RUN composer require 'drupal/super_login:^2.1' # To use superlogin with drupal
 RUN composer require 'drupal/login_redirect_per_role:^1.9' # To ensure patients are redirected to the correct page after logging in
 RUN composer require 'drupal/token:^1.12' # Install token module
 RUN composer require 'drupal/masquerade:^2.0@RC' # To install masquarade module
+RUN composer require 'drupal/webform_content_creator:^4.0' # Allows creating content entities from webform submission.
