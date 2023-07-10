@@ -13,6 +13,10 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
 RUN curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer && \
     ln -s /root/.composer/vendor/bin/drush /usr/local/bin/drush
+# Install Drupal Console
+RUN curl https://drupalconsole.com/installer -L -o drupal.phar \
+    && mv drupal.phar /usr/local/bin/drupal \
+    && chmod +x /usr/local/bin/drupal    
 
 # Install Drush
 RUN composer global require drush/drush && \
