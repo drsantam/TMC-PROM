@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: prom_db
+    restart: always
+    env_file: .env
+    volumes:
+      - promdb:/var/lib/mysql
+
+  drupal:
+    image: registry.gitlab.com/chavi/prom/prom:latest	
+
+    ports:
+      - 8086:80
+    container_name: prom_website
+    env_file: .env
+    depends_on:
+      - mysql
+    restart: always
+    volumes:
+      - promsite:/var/www/html
+
+networks:
+  default:
+    name: prom_network
+    external: true
+      
+volumes:
+  promsite:
+  promdb:
