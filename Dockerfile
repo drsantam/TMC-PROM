@@ -61,3 +61,20 @@ RUN composer require 'drupal/password_policy:^4.0' # Secure password check and a
 RUN composer require 'drupal/views_autocomplete_filters:^1.4' # Add autocomplete filter support for views filter to filter by usernames
 RUN composer require 'drupal/views_conditional:^1.5' # Allow creating conditonal statements in Views
 RUN composer require 'drupal/views_exposed_filter_blocks:^1.3' # Allows views exposed filters to be placed in blocks in layout manager
+
+# Copy the Drupal files
+COPY . /var/www/html
+
+# Set the file permissions
+RUN chown -R www-data:www-data sites modules themes
+
+# Install Drupal using Drush and environment variables
+RUN drush site:install \
+    --db-url=mysql://${DRUPAL_DATABASE_USER}:${DRUPAL_DATABASE_PASSWORD}@${DB_HOST}/${MYSQL_DATABASE} \
+    --account-name=${ADMIN} \
+    --account-pass=${ADMIN_PASSWORD} \
+    --site-name=${SITE_NAME} \
+    --site-mail=${SITE_MAIL} \
+    --existing-config
+
+
