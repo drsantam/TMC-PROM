@@ -61,3 +61,5 @@ RUN composer require 'drupal/password_policy:^4.0' # Secure password check and a
 RUN composer require 'drupal/views_autocomplete_filters:^1.4' # Add autocomplete filter support for views filter to filter by usernames
 RUN composer require 'drupal/views_conditional:^1.5' # Allow creating conditonal statements in Views
 RUN composer require 'drupal/views_exposed_filter_blocks:^1.3' # Allows views exposed filters to be placed in blocks in layout manager
+RUN composer require 'drupal/clientside_validation:^4.0' # To allow use of webform cards
+
