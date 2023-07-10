@@ -1,5 +1,6 @@
 FROM drupal:latest
-
+# Set the working directory
+WORKDIR /var/www/html
 # Install packages
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update && apt-get install --no-install-recommends -y \
