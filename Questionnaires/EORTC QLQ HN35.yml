@@ -1,0 +1,350 @@
+q31_card:
+  '#type': card
+  '#title': q31_card
+  '#title_display': invisible
+  hn35_q31:
+    '#type': radios
+    '#title': 'During the past week have you had pain in your mouth ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q32_card:
+  '#type': card
+  '#title': q32_card
+  '#title_display': invisible
+  hn35_q32:
+    '#type': radios
+    '#title': 'During the past week have you had pain in your jaw ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q33_card:
+  '#type': card
+  '#title': q33_card
+  '#title_display': invisible
+  hn35_q33:
+    '#type': radios
+    '#title': 'During the past week have you had soreness in your mouth ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons        
+q34_card:
+  '#type': card
+  '#title': q34_card
+  '#title_display': invisible
+  hn35_q34:
+    '#type': radios
+    '#title': 'During the past week have you had painful throat ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q35_card:
+  '#type': card
+  '#title': q35_card
+  '#title_display': invisible
+  hn35_q35:
+    '#type': radios
+    '#title': 'During the past week have you had problems swallowing liquids ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q36_card:
+  '#type': card
+  '#title': q36_card
+  '#title_display': invisible
+  hn35_q36:
+    '#type': radios
+    '#title': 'During the past week have you had problems swallowing pureed food ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons 
+q37_card:
+  '#type': card
+  '#title': q37_card
+  '#title_display': invisible
+  hn35_q37:
+    '#type': radios
+    '#title': 'During the past week have you had problems swallowing solid food ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q38_card:
+  '#type': card
+  '#title': q38_card
+  '#title_display': invisible
+  hn35_q38:
+    '#type': radios
+    '#title': 'During the past week have you choked when swallowing ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q39_card:
+  '#type': card
+  '#title': q39_card
+  '#title_display': invisible
+  hn35_q39:
+    '#type': radios
+    '#title': 'During the past week have you had problems with your teeth ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons         
+q40_card:
+  '#type': card
+  '#title': q40_card
+  '#title_display': invisible
+  hn35_q40:
+    '#type': radios
+    '#title': 'During the past week have you problems opening your mouth wide ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q41_card:
+  '#type': card
+  '#title': q41_card
+  '#title_display': invisible
+  hn35_q41:
+    '#type': radios
+    '#title': 'During the past week did have you had a dry mouth ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q42_card:
+  '#type': card
+  '#title': q42_card
+  '#title_display': invisible
+  hn35_q42:
+    '#type': radios
+    '#title': 'During the past week have you had sticky saliva ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q43_card:
+  '#type': card
+  '#title': q43_card
+  '#title_display': invisible
+  hn35_q43:
+    '#type': radios
+    '#title': 'During the past week have you had problems with your sense of smell ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q44_card:
+  '#type': card
+  '#title': q44_card
+  '#title_display': invisible
+  hn35_q44:
+    '#type': radios
+    '#title': 'During the past week have you had problems with your sense of taste ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons       
+q45_card:
+  '#type': card
+  '#title': q45_card
+  '#title_display': invisible
+  hn35_q45:
+    '#type': radios
+    '#title': 'During the past week have you coughed ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons 
+q46_card:
+  '#type': card
+  '#title': q46_card
+  '#title_display': invisible
+  hn35_q46:
+    '#type': radios
+    '#title': 'During the past week have you been hoarse ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons   
+q47_card:
+  '#type': card
+  '#title': q47_card
+  '#title_display': invisible
+  hn35_q47:
+    '#type': radios
+    '#title': 'During the week did you have you felt ill ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons   
+q48_card:
+  '#type': card
+  '#title': q48_card
+  '#title_display': invisible
+  hn35_q48:
+    '#type': radios
+    '#title': 'During the past week has your appearance bothered you ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q49_card:
+  '#type': card
+  '#title': q49_card
+  '#title_display': invisible
+  hn35_q49:
+    '#type': radios
+    '#title': 'During the past week have you had trouble eating ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q50_card:
+  '#type': card
+  '#title': q50_card
+  '#title_display': invisible
+  hn35_q50:
+    '#type': radios
+    '#title': 'During the past week have you had trouble eating in front of your family ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q51_card:
+  '#type': card
+  '#title': q51_card
+  '#title_display': invisible
+  hn35_q51:
+    '#type': radios
+    '#title': 'During the past week have you had trouble eating in front of other people ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q52_card:
+  '#type': card
+  '#title': q52_card
+  '#title_display': invisible
+  hn35_q52:
+    '#type': radios
+    '#title': 'During the past week have you had trouble enjoying your meals ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q53_card:
+  '#type': card
+  '#title': q53_card
+  '#title_display': invisible
+  hn35_q53:
+    '#type': radios
+    '#title': 'During the past week have you had trouble talking to other people ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q54_card:
+  '#type': card
+  '#title': q54_card
+  '#title_display': invisible
+  hn35_q54:
+    '#type': radios
+    '#title': 'During the past week have you had trouble talking on the telephone ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons          
+q55_card:
+  '#type': card
+  '#title': q55_card
+  '#title_display': invisible
+  hn35_q55:
+    '#type': radios
+    '#title': 'During the past week have you had trouble having social contact with your family ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q56_card:
+  '#type': card
+  '#title': q56_card
+  '#title_display': invisible
+  hn35_q56:
+    '#type': radios
+    '#title': 'During the past week have you had trouble having social contact with friends ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q57_card:
+  '#type': card
+  '#title': q57_card
+  '#title_display': invisible
+  hn35_q57:
+    '#type': radios
+    '#title': 'During the past week have you had trouble going out in public ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q58_card:
+  '#type': card
+  '#title': q58_card
+  '#title_display': invisible
+  hn35_q58:
+    '#type': radios
+    '#title': 'During the past week have you had trouble having physical contact with family or friends ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons        
+q59_card:
+  '#type': card
+  '#title': q59_card
+  '#title_display': invisible
+  hn35_q59:
+    '#type': radios
+    '#title': 'During the past week have you felt less interest in sex ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q60_card:
+  '#type': card
+  '#title': q60_card
+  '#title_display': invisible
+  hn35_q60:
+    '#type': radios
+    '#title': 'During the past week have you felt less sexual enjoyment ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q61_card:
+  '#type': card
+  '#title': q61_card
+  '#title_display': invisible
+  hn35_q61:
+    '#type': radios
+    '#title': 'During the past week have you used pain-killers ?'
+    '#description_display': before
+    '#options': yes_no
+    '#options_display': buttons       
+q62_card:
+  '#type': card
+  '#title': q62_card
+  '#title_display': invisible
+  hn35_q62:
+    '#type': radios
+    '#title': 'During the past week have you taken any nutritional supplements (excluding vitamins) ?'
+    '#description_display': before
+    '#options': yes_no
+    '#options_display': buttons      
+q63_card:
+  '#type': card
+  '#title': q63_card
+  '#title_display': invisible
+  hn35_q63:
+    '#type': radios
+    '#title': 'During the past week have you used a feeding tube ?'
+    '#description_display': before
+    '#options': yes_no
+    '#options_display': buttons      
+q64_card:
+  '#type': card
+  '#title': q64_card
+  '#title_display': invisible
+  hn35_q64:
+    '#type': radios
+    '#title': 'During the past week have you lost weight ?'
+    '#description_display': before
+    '#options': yes_no
+    '#options_display': buttons         
+q65_card:
+  '#type': card
+  '#title': q65_card
+  '#title_display': invisible
+  hn35_q65:
+    '#type': radios
+    '#title': 'During the past week have you gained weight ?'
+    '#description_display': before
+    '#options': yes_no
+    '#options_display': buttons         
