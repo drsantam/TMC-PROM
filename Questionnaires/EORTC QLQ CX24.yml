@@ -1,0 +1,239 @@
+introduction:
+  '#type': card
+  '#title': Introduction
+  cx24_information:
+    '#type': processed_text
+    '#text': |
+      <p>In this form we will ask you a set of questions about the problems you are having. Patients sometimes report that they have the following symptoms or problems. Please indicate the extent to which you have experienced these symptoms or problems. Please answer by clicking the button of the option that best applies to you.&nbsp;</p>
+    '#format': basic_html
+question_1:
+  '#type': card
+  '#title': 'Question 1'
+  cx24_q31:
+    '#type': radios
+    '#title': 'During the past 1 week did you have cramps in your abdomen ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_2:
+  '#type': card
+  '#title': 'Question 2'
+  cx24_q32:
+    '#type': radios
+    '#title': 'During the past 1 week did you have difficulty controlling your bowels ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_3:
+  '#type': card
+  '#title': 'Question 3'
+  cx24_q33:
+    '#type': radios
+    '#title': 'During the past 1 week have you had blood in your stools (motions) ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_4:
+  '#type': card
+  '#title': 'Question 4'
+  cx24_q34:
+    '#type': radios
+    '#title': 'During the past 1 week did you pass water / urine frequently ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_5:
+  '#type': card
+  '#title': 'Question 5'
+  cx24_q35:
+    '#type': radios
+    '#title': 'During the past 1 week have you had a pain or burning feeling when passing water / urinating ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_6:
+  '#type': card
+  '#title': 'Question 6'
+  cx24_q36:
+    '#type': radios
+    '#title': 'During the past 1 week have you had leaking of urine ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_7:
+  '#type': card
+  '#title': 'Question 7'
+  cx24_q37:
+    '#type': radios
+    '#title': 'During the past 1 week have you had difficulty emptying your bladder ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_8:
+  '#type': card
+  '#title': 'Question 8'
+  cx24_q38:
+    '#type': radios
+    '#title': 'During the past 1 week have you had swelling in one or both legs ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_9:
+  '#type': card
+  '#title': 'Question 9'
+  cx24_q39:
+    '#type': radios
+    '#title': 'During the past 1 week have you had pain in your lower back ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_10:
+  '#type': card
+  '#title': 'Question 10'
+  cx24_q40:
+    '#type': radios
+    '#title': 'During the past 1 week have you had tingling or numbness in your hands or feet ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_11:
+  '#type': card
+  '#title': 'Question 11'
+  cx24_q41:
+    '#type': radios
+    '#title': 'During the past 1 week have you had irritation or soreness in your vagina or vulva ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_12:
+  '#type': card
+  '#title': 'Question 12'
+  cx24_q42:
+    '#type': radios
+    '#title': 'During the past 1 week have you had discharge from your vagina ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_13:
+  '#type': card
+  '#title': 'Question 13'
+  cx24_q43:
+    '#type': radios
+    '#title': 'During the past 1 week have you had abnormal bleeding from your vagina ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_14:
+  '#type': card
+  '#title': 'Question 14'
+  cx24_q44:
+    '#type': radios
+    '#title': 'During the past 1 week have you had hot flushes and/or sweats ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_15:
+  '#type': card
+  '#title': 'Question 15'
+  cx24_q45:
+    '#type': radios
+    '#title': 'During the past 1 week have you felt physically less attractive as a result of your disease or treatment ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_16:
+  '#type': card
+  '#title': 'Question 16'
+  cx24_q46:
+    '#type': radios
+    '#title': 'During the past 1 week have you felt less feminine as a result of your disease or treatment ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_17:
+  '#type': card
+  '#title': 'Question 17'
+  cx24_q47:
+    '#type': radios
+    '#title': 'During the past 1 week have you felt dissatisfied with your body ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_18:
+  '#type': card
+  '#title': 'Question 18'
+  cx24_q48:
+    '#type': radios
+    '#title': 'During the past 4 weeks have you worried that sex would be painful ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_19:
+  '#type': card
+  '#title': 'Question 19'
+  cx24_q49:
+    '#type': radios
+    '#title': 'During the past 4 weeks have you been sexually active?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#required': true
+question_20:
+  '#type': card
+  '#title': 'Question 20'
+  cx24_q50:
+    '#type': radios
+    '#title': 'During the past 4 weeks has your vagina felt dry during sexual activity ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#states':
+      visible:
+        ':input[name="sexual_activity"]':
+          '!value': '1'
+question_21:
+  '#type': card
+  '#title': 'Question 21'
+  cx24_q51:
+    '#type': radios
+    '#title': 'During the past 4 weeks has your vagina felt short ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#states':
+      visible:
+        ':input[name="sexual_activity"]':
+          '!value': '1'
+question_22:
+  '#type': card
+  '#title': 'Question 22'
+  cx24_q52:
+    '#type': radios
+    '#title': 'During the past 4 weeks has your vagina felt tight ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#states':
+      visible:
+        ':input[name="sexual_activity"]':
+          '!value': '1'
+question_23:
+  '#type': card
+  '#title': 'Question 23'
+  cx24_q53:
+    '#type': radios
+    '#title': 'During the past 4 weeks have you had pain during sexual intercourse or other sexual activity ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#states':
+      visible:
+        ':input[name="sexual_activity"]':
+          '!value': '1'          
+question_24:
+  '#type': card
+  '#title': 'Question 24'
+  cx24_q54:
+    '#type': radios
+    '#title': 'During the past 4 weeks was sexual activity enjoyable for you ?'
+    '#options': eortc_options
+    '#options_display': buttons
+    '#states':
+      visible:
+        ':input[name="sexual_activity"]':
+          '!value': '1'                
