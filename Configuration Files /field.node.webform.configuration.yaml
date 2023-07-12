@@ -1,0 +1,31 @@
+uuid: ade8a710-4d2f-435c-8750-3a1909a1e230 # Will need to be changed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.webform
+    - node.type.webform
+  module:
+    - webform
+_core:
+  default_config_hash: w6hvTj8CaO8YVQDnlsD-jRBzMA_vNmx2cXLEKX13yT4  # Will need to be changed
+id: node.webform.webform
+field_name: webform
+entity_type: node
+bundle: webform
+label: Webform
+description: 'Select the webform that you would like to attach to this node.'
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings: {  }
+field_type: webform
