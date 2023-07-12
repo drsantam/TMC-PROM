@@ -1,0 +1,29 @@
+uuid: 3e6a2637-55cc-4c02-a096-b65c80a923d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_name
+    - node.type.webform
+    - taxonomy.vocabulary.projects
+id: node.webform.field_project_name
+field_name: field_project_name
+entity_type: node
+bundle: webform
+label: 'Project Name'
+description: 'Select the project to which this questionaire is assigned. Note that patients will be given permission to view the questionnaire and submit answers on the form based on the project. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      projects: projects
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
