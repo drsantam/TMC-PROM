@@ -1,0 +1,230 @@
+q31_card:
+  '#type': card
+  '#title': q31_card
+  '#title_display': invisible
+  br23_q31:
+    '#type': radios
+    '#title': 'During the past week did you have a dry mouth ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q32_card:
+  '#type': card
+  '#title': q32_card
+  '#title_display': invisible
+  br23_q32:
+    '#type': radios
+    '#title': 'During the past week did food and drink taste different than usual ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q33_card:
+  '#type': card
+  '#title': q33_card
+  '#title_display': invisible
+  br23_q33:
+    '#type': radios
+    '#title': 'During the past week were your eyes painful, irritated or watery ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons        
+q34_card:
+  '#type': card
+  '#title': q34_card
+  '#title_display': invisible
+  br23_q34:
+    '#type': radios
+    '#title': 'During the past week have you lost any hair ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q35_card:
+  '#type': card
+  '#title': q35_card
+  '#title_display': invisible
+  br23_q35:
+    '#type': radios
+    '#title': 'During the past week were you upset by the loss of your hair ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q36_card:
+  '#type': card
+  '#title': q36_card
+  '#title_display': invisible
+  br23_q36:
+    '#type': radios
+    '#title': 'During the past week did you feel ill or unwell ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons 
+q37_card:
+  '#type': card
+  '#title': q37_card
+  '#title_display': invisible
+  br23_q37:
+    '#type': radios
+    '#title': 'During the past week did you have hot flushes ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q38_card:
+  '#type': card
+  '#title': q38_card
+  '#title_display': invisible
+  br23_q38:
+    '#type': radios
+    '#title': 'During the past week did you have headaches ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q39_card:
+  '#type': card
+  '#title': q39_card
+  '#title_display': invisible
+  br23_q39:
+    '#type': radios
+    '#title': 'During the past week have you felt physically less attractive as a result of your disease or treatment?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons         
+q40_card:
+  '#type': card
+  '#title': q40_card
+  '#title_display': invisible
+  br23_q40:
+    '#type': radios
+    '#title': 'During the past week have you feeling less feminine as a result of your disease or treatment?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q41_card:
+  '#type': card
+  '#title': q41_card
+  '#title_display': invisible
+  br23_q41:
+    '#type': radios
+    '#title': 'During the past week did you find it difficult to look at yourself naked ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q42_card:
+  '#type': card
+  '#title': q42_card
+  '#title_display': invisible
+  br23_q42:
+    '#type': radios
+    '#title': 'During the past week have you been dissatisfied with your body ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q43_card:
+  '#type': card
+  '#title': q43_card
+  '#title_display': invisible
+  br23_q43:
+    '#type': radios
+    '#title': 'During the past week were you worried about your health in the future ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
+q44_card:
+  '#type': card
+  '#title': q44_card
+  '#title_display': invisible
+  br23_q44:
+    '#type': radios
+    '#title': 'During the past four weeks to what extent were you interested in sex ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons       
+q45_card:
+  '#type': card
+  '#title': q45_card
+  '#title_display': invisible
+  br23_q45:
+    '#type': radios
+    '#title': 'During the past four weeks to what extent were you sexually active ? With or without intercourse.'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons 
+q46_card:
+  '#type': card
+  '#title': q46_card
+  '#title_display': invisible
+  br23_q46:
+    '#type': radios
+    '#title': 'During the past four weeks to what extent was sex enjoyable for you ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons   
+q47_card:
+  '#type': card
+  '#title': q47_card
+  '#title_display': invisible
+  br23_q47:
+    '#type': radios
+    '#title': 'During the week did you have any pain in your arm or shoulder ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons   
+q48_card:
+  '#type': card
+  '#title': q48_card
+  '#title_display': invisible
+  br23_q48:
+    '#type': radios
+    '#title': 'During the week did you have a swollen arm or hand ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q49_card:
+  '#type': card
+  '#title': q49_card
+  '#title_display': invisible
+  br23_q49:
+    '#type': radios
+    '#title': 'During the week was it difficult to raise your arm or move it sideways ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q50_card:
+  '#type': card
+  '#title': q50_card
+  '#title_display': invisible
+  br23_q50:
+    '#type': radios
+    '#title': 'During the week have you had any pain in the area of your affected breast ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q51_card:
+  '#type': card
+  '#title': q51_card
+  '#title_display': invisible
+  br23_q51:
+    '#type': radios
+    '#title': 'During the week was the area of your affected breast swollen ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons     
+q52_card:
+  '#type': card
+  '#title': q52_card
+  '#title_display': invisible
+  br23_q52:
+    '#type': radios
+    '#title': 'During the week was the area of your affected breast oversensitive ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons    
+q53_card:
+  '#type': card
+  '#title': q53_card
+  '#title_display': invisible
+  br23_q53:
+    '#type': radios
+    '#title': 'During the week Have you had skin problems on or in the area of your affected breast (e.g., itchy, dry, flaky)?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons      
