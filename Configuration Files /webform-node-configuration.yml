@@ -1,0 +1,22 @@
+uuid: 74d2c578-7567-404e-b093-e504612a5743 # This will need to be changed. 
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - webform_node
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: BuY_3PjmYtRTSuvyFORJZUe0-TQiNXEE6yYQ_dkjxW8
+name: Webform
+type: webform
+description: 'A basic page with a webform attached.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
