@@ -64,4 +64,4 @@ RUN composer require 'drupal/views_exposed_filter_blocks:^1.3' # Allows views ex
 RUN composer require 'drupal/clientside_validation:^4.0' # To allow use of webform cards
 RUN composer require 'drupal/permissions_by_term:^3.1' # To setup an alternate form of permissions using taxonomy terms. 
 RUN composer require 'drupal/views_bulk_operations:^4.2' # Allow bulk operations on Views 
-
+RUN composer require 'drupal/administerusersbyrole:^3.4' # Allows provision of create user and edit user to specific roles for the site. 
