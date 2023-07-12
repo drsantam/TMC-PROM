@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: UiTY9bhUKWJOIWDlOKM3akeeyHuJJRspXETsv3SY6jw # Note that this will need to be changed for the site.
+roles:
+  patient: perm
+  coordinator: perm
+  nurse: perm
+  doctor: perm
+  project_manager: unsafe
