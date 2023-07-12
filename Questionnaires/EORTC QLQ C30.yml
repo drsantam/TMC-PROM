@@ -1,0 +1,316 @@
+introduction:
+  '#type': card
+  '#title': Introduction
+  c30_information:
+    '#type': processed_text
+    '#text': |
+      <p>We are interested in some things about you and your health. Please answer all of the questions yourself by clicking the button&nbsp;that best applies to you. There are no "right" or "wrong" answers. The information that you provide will&nbsp;remain strictly confidential.&nbsp;</p>
+    '#format': basic_html
+q1_card:
+  '#type': card
+  '#title': q1_card
+  '#title_display': invisible
+  c30_q1:
+    '#type': radios
+    '#title': 'Do you have any trouble doing strenuous activities, like carrying a heavy shopping bag or a suitcase?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q2_card:
+  '#type': card
+  '#title': q2_card
+  '#title_display': invisible
+  c30_q2:
+    '#type': radios
+    '#title': 'Do you have any trouble taking a long walk?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q3_card:
+  '#type': card
+  '#title': q3_card
+  '#title_display': invisible
+  c30_q3:
+    '#type': radios
+    '#title': 'Do you have any trouble taking a short walk outside of the house?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q4_card:
+  '#type': card
+  '#title': q4_card
+  '#title_display': invisible
+  c30_q4:
+    '#type': radios
+    '#title': 'Do you need to stay in bed or a chair during the day?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q5_card:
+  '#type': card
+  '#title': q5_card
+  '#title_display': invisible
+  c30_q5:
+    '#type': radios
+    '#title': 'Do you need help with eating, dressing, washing yourself or using the toilet?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q6_card:
+  '#type': card
+  '#title': q6_card
+  '#title_display': invisible
+  c30_q6:
+    '#type': radios
+    '#title': 'During the past week were you limited in doing either your work or other daily activities ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q7_card:
+  '#type': card
+  '#title': q7_card
+  '#title_display': invisible
+  c30_q7:
+    '#type': radios
+    '#title': 'During the past week were you limited in pursuing your hobbies or other lesiure time activities ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q8_card:
+  '#type': card
+  '#title': q8_card
+  '#title_display': invisible
+  c30_q8:
+    '#type': radios
+    '#title': 'During the past week were you short of breath ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q9_card:
+  '#type': card
+  '#title': q9_card
+  '#title_display': invisible
+  c30_q9:
+    '#type': radios
+    '#title': 'During the past week have you had pain ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q10_card:
+  '#type': card
+  '#title': q10_card
+  '#title_display': invisible
+  c30_q10:
+    '#type': radios
+    '#title': 'During the past week did you need to rest ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q11_card:
+  '#type': card
+  '#title': q11_card
+  '#title_display': invisible
+  c30_q11:
+    '#type': radios
+    '#title': 'During the past week have you had trouble sleeping ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q12_card:
+  '#type': card
+  '#title': q12_card
+  '#title_display': invisible
+  c30_q12:
+    '#type': radios
+    '#title': 'During the past week have you felt weak ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q13_card:
+  '#type': card
+  '#title': q13_card
+  '#title_display': invisible
+  c30_q13:
+    '#type': radios
+    '#title': 'During the past week have you lacked appetite ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q14_card:
+  '#type': card
+  '#title': q14_card
+  '#title_display': invisible
+  c30_q14:
+    '#type': radios
+    '#title': 'During the past week have you felt nauseated ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q15_card:
+  '#type': card
+  '#title': q15_card
+  '#title_display': invisible
+  c30_q15:
+    '#type': radios
+    '#title': 'During the past week have you vomited ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q16_card:
+  '#type': card
+  '#title': q16_card
+  '#title_display': invisible
+  c30_q16:
+    '#type': radios
+    '#title': 'During the past week have you been constipated ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q17_card:
+  '#type': card
+  '#title': q17_card
+  '#title_display': invisible
+  c30_q17:
+    '#type': radios
+    '#title': 'During the past week have had diarrhea ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q18_card:
+  '#type': card
+  '#title': q18_card
+  '#title_display': invisible
+  c30_q18:
+    '#type': radios
+    '#title': 'During the past week were you tired ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q19_card:
+  '#type': card
+  '#title': q19_card
+  '#title_display': invisible
+  c30_q19:
+    '#type': radios
+    '#title': 'During the past week did pain interfere with your daily activities ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q20_card:
+  '#type': card
+  '#title': q20_card
+  '#title_display': invisible
+  c30_q20:
+    '#type': radios
+    '#title': 'During the past week have you had difficulty in concentrating on things,like reading a newspaper or watching television ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q21_card:
+  '#type': card
+  '#title': q21_card
+  '#title_display': invisible
+  c30_q21:
+    '#type': radios
+    '#title': 'During the past week did you feel tense?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q22_card:
+  '#type': card
+  '#title': q22_card
+  '#title_display': invisible
+  c30_q22:
+    '#type': radios
+    '#title': 'During the past week did you worry ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q23_card:
+  '#type': card
+  '#title': q23_card
+  '#title_display': invisible
+  c30_q23:
+    '#type': radios
+    '#title': 'During the past week did you feel irritable ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q24_card:
+  '#type': card
+  '#title': q24_card
+  '#title_display': invisible
+  c30_q24:
+    '#type': radios
+    '#title': 'During the past week did you feel depressed ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q25_card:
+  '#type': card
+  '#title': q25_card
+  '#title_display': invisible
+  c30_q25:
+    '#type': radios
+    '#title': 'During the past week have you had difficulty remembering things ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q26_card:
+  '#type': card
+  '#title': q26_card
+  '#title_display': invisible
+  c30_q26:
+    '#type': radios
+    '#title': 'During the past week has your physical condition or medical treatment interfered with your family life ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q27_card:
+  '#type': card
+  '#title': q27_card
+  '#title_display': invisible
+  c30_q27:
+    '#type': radios
+    '#title': 'During the past week has your physical condition or medical treatment interfered with your social activities ?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q28_card:
+  '#type': card
+  '#title': q28_card
+  '#title_display': invisible
+  c30_q28:
+    '#type': radios
+    '#title': 'Has your physical condition or medical treatment caused you financial difficulties?'
+    '#description_display': before
+    '#options': eortc_options
+    '#options_display': buttons
+q29_card:
+  '#type': card
+  '#title': q29_card
+  '#title_display': invisible
+  c30_q29:
+    '#type': scale
+    '#title': 'How would you rate your overall health during the past week?'
+    '#description': '<p>Please select the number 1 if you rate your overall health as very poor and 7 if it is excellent. Choose a number in between to rate your health in the last week if it is in between these two extremes.&nbsp;</p>'
+    '#max': 7
+    '#min_text': 'Very Poor'
+    '#max_text': Excellent
+    '#scale_size': large
+    '#star_size': large
+    '#reset': true
+q30_card:
+  '#type': card
+  '#title': q30_card
+  '#title_display': invisible
+  c30_q30:
+    '#type': scale
+    '#title': 'How would you rate your overall quality of life during the past week?'
+    '#description': '<p>Please select the number 1 if you rate your overall quality of life as very poor and 7 if it is excellent. Choose a number in between to rate your overall quality of life in the last week if it is in between these two extremes.&nbsp;</p>'
+    '#max': 7
+    '#min_text': 'Very Poor'
+    '#max_text': Excellent
+    '#scale_size': large
+    '#star_size': large
+    '#reset': true
