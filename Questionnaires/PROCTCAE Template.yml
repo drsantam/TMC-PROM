@@ -134,147 +134,147 @@ introduction:
     '#options': proctcae_severity_scale
     '#options_display': buttons
     '#required': true     
-8a:
-  '#type': card
-  '#title': 8a
-  cough_severity:
-    '#type': radios
-    '#title': '  In the last 7 days, what was the SEVERITY of your COUGH at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true   
-8b:
-  '#type': card
-  '#title': 8b
-  cough_interference:
-    '#type': radios
-    '#title': 'In the last 7 days, how much did COUGH INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true          
-9a:
-  '#type': card
-  '#title': 9a
-  gen_pain_frequency:
-    '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have PAIN?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true   
-9b:
-  '#type': card
-  '#title': 9b
-  gen_pain_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your PAIN at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true        
-9c:
-  '#type': card
-  '#title': 9c
-  gen_pain_interference:
-    '#type': radios
-    '#title': 'In the last 7 days, how much did PAIN INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true          
-10a:
-  '#type': card
-  '#title': 10a
-  fatigue_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your FATIGUE, TIREDNESS, OR LACK OF ENERGY at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true        
-10b:
-  '#type': card
-  '#title': 10b
-  fatigue_interference:
-    '#type': radios
-    '#title': ' In the last 7 days, how much did FATIGUE, TIREDNESS, OR LACK OF ENERGY INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true       
 11a:
   '#type': card
   '#title': 11a
-  anxiety_frequency:
+  proctcae_heartburn_frequency:
     '#type': radios
-    '#title': 'In the last 7 days, how OFTEN did you feel ANXIETY?'
+    '#title': 'In the last 7 days, how OFTEN did you have HEARTBURN?'
     '#options': proctcae_frequency_scale
     '#options_display': buttons
     '#required': true   
 11b:
   '#type': card
   '#title': 11b
-  anxiety_severity:
+  proctcae_heartburn_severity:
     '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your ANXIETY at its WORST?'
+    '#title': ' In the last 7 days, what was the SEVERITY of your HEARTBURN at its WORST?'
     '#options': proctcae_severity_scale
     '#options_display': buttons
-    '#required': true        
-11c:
-  '#type': card
-  '#title': 11c
-  anxiety_interference:
-    '#type': radios
-    '#title': 'In the last 7 days, how much did ANXIETY INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true    
+    '#required': true          
 12a:
   '#type': card
   '#title': 12a
-  discourage_frequency:
+  proctcae_gas:
     '#type': radios
-    '#title': 'In the last 7 days, how OFTEN did you FEEL THAT NOTHING COULD CHEER YOU UP?'
-    '#options': proctcae_frequency_scale
+    '#title': ' In the last 7 days, did you have any INCREASED PASSING OF GAS (FLATULENCE)?'
+    '#options': proctcae_boolean_scale
     '#options_display': buttons
     '#required': true   
-12b:
-  '#type': card
-  '#title': 12b
-  discourage_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your FEELINGS THAT NOTHING COULD CHEER YOU UP at their WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true        
-12c:
-  '#type': card
-  '#title': 12c
-  discourage_interference:
-    '#type': radios
-    '#title': ' In the last 7 days, how much did FEELING THAT NOTHING COULD CHEER YOU UP INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true       
 13a:
   '#type': card
   '#title': 13a
-  sadness_frequency:
+  proctcae_bloating_frequency:
     '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have SAD OR UNHAPPY FEELINGS?'
+    '#title': 'In the last 7 days, how OFTEN did you have BLOATING OF THE ABDOMEN (BELLY)?'
     '#options': proctcae_frequency_scale
     '#options_display': buttons
-    '#required': true   
+    '#required': true        
 13b:
   '#type': card
   '#title': 13b
-  sadness_severity:
+  proctcae_bloating_severity:
     '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your SAD OR UNHAPPY FEELINGS at their WORST?'
+    '#title': ' In the last 7 days, what was the SEVERITY of your BLOATING OF THE ABDOMEN (BELLY) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true          
+14a:
+  '#type': card
+  '#title': 14a
+  proctcae_hiccup_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, how OFTEN did you have HICCUPS?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true        
+14b:
+  '#type': card
+  '#title': 14b
+  proctcae_hiccup_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your HICCUPS at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true       
+15a:
+  '#type': card
+  '#title': 15a
+  proctcae_constipation_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your CONSTIPATION at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true   
+16a:
+  '#type': card
+  '#title': 16a
+  proctcae_diarrhea_frequency:
+    '#type': radios
+    '#title': ' In the last 7 days, how OFTEN did you have LOOSE OR WATERY STOOLS (DIARRHEA/DIARRHOEA)?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true        
+17a:
+  '#type': card
+  '#title': 17a
+  proctcae_abdominal_pain_frequency:
+    '#type': radios
+    '#title': ' In the last 7 days, how OFTEN did you have PAIN IN THE ABDOMEN (BELLY AREA)?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+17b:
+  '#type': card
+  '#title': 17b
+  proctcae_abdominal_pain_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your PAIN IN THE ABDOMEN (BELLY AREA) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true   
+17c:
+  '#type': card
+  '#title': 17c
+  proctcae_abdominal_pain_interference:
+    '#type': radios
+    '#title': '  In the last 7 days, how much did PAIN IN THE ABDOMEN (BELLY AREA) INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true        
+18a:
+  '#type': card
+  '#title': 18a
+  proctcae_fecal_incontinence_frequency:
+    '#type': radios
+    '#title': ' In the last 7 days, how OFTEN did you LOSE CONTROL OF BOWEL MOVEMENTS?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true       
+18b:
+  '#type': card
+  '#title': 18b
+  proctcae_fecal_intontinence_interference:
+    '#type': radios
+    '#title': 'In the last 7 days, how much did LOSS OF CONTROL OF BOWEL MOVEMENTS INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true   
+19a:
+  '#type': card
+  '#title': 19a
+  proctcae_dyspnea_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your SHORTNESS OF BREATH at its WORST?'
     '#options': proctcae_severity_scale
     '#options_display': buttons
     '#required': true        
-13c:
+19b:
   '#type': card
-  '#title': 13c
-  sadness_interference:
+  '#title': 19b
+  proctcae_dyspnea_interference:
     '#type': radios
-    '#title': 'In the last 7 days, how much did SAD OR UNHAPPY FEELINGS INTERFERE with your usual or daily activities?'
+    '#title': ' In the last 7 days, how much did your SHORTNESS OF BREATH INTERFERE with your usual or daily activities?'
     '#options': proctcae_interference_scale
     '#options_display': buttons
     '#required': true        
