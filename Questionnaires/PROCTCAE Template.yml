@@ -539,5 +539,86 @@ introduction:
     '#options': proctcae_interference_scale
     '#options_display': buttons
     '#required': true     
+42:
+  '#type': card
+  '#title': 42
+  proctcae_flashing_lights:
+    '#type': radios
+    '#title': ' In the last 7 days, did you have any FLASHING LIGHTS IN FRONT OF YOUR EYES?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true     
+43:
+  '#type': card
+  '#title': 43
+  proctcae_visual_floaters:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any SPOTS OR LINES (FLOATERS) THAT DRIFT IN FRONT OF YOUR EYES?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true      
+44a:
+  '#type': card
+  '#title': 44a
+  proctcae_watery_eyes_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your WATERY EYES (TEARING) at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true      
+44b:
+  '#type': card
+  '#title': 44b
+  proctcae_watery_eyes_interference:
+    '#type': radios
+    '#title': 'In the last 7 days, how much did WATERY EYES (TEARING) INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true      
+45:
+  '#type': card
+  '#title': 45
+  proctcae_ringing_ear_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of RINGING IN YOUR EARS at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true      
+46a:
+  '#type': card
+  '#title': 46a
+  proctcae_concentration_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your PROBLEMS WITH CONCENTRATION at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+46b:
+  '#type': card
+  '#title': 46b
+  proctcae_concentration_inteference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did PROBLEMS WITH CONCENTRATION INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true      
+47a:
+  '#type': card
+  '#title': 47a
+  proctcae_memory_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your PROBLEMS WITH MEMORY at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+47b:
+  '#type': card
+  '#title': 47b
+  proctcae_memory_inteference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did PROBLEMS WITH MEMORY INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true       
     
     
