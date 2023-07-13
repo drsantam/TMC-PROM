@@ -1,0 +1,150 @@
+xeql1_card:
+  '#type': card
+  '#title': xeql1_card
+  '#title_display': invisible
+  xeql1:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness limits the kinds or amounts of food I eat.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons   
+xeql2_card:
+  '#type': card
+  '#title': xeql2_card
+  '#title_display': invisible
+  xeql2:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness causes discomfort.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons       
+xeql3_card:
+  '#type': card
+  '#title': xeql3_card
+  '#title_display': invisible
+  xeql3:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness causes a lot of worry or concern.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons        
+xeql4_card:
+  '#type': card
+  '#title': xeql4_card
+  '#title_display': invisible
+  xeql4:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness keeps me form socializing (going out).'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons      
+xeql5_card:
+  '#type': card
+  '#title': xeql5_card
+  '#title_display': invisible
+  xeql5:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness makes me uncomfortable when eating in front of other people.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons     
+xeql6_card:
+  '#type': card
+  '#title': xeql6_card
+  '#title_display': invisible
+  xeql6:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness makes me uncomfortable speaking in front of other people.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons        
+xeql7_card:
+  '#type': card
+  '#title': xeql7_card
+  '#title_display': invisible
+  xeql7:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness makes me nervous.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons   
+xeql8_card:
+  '#type': card
+  '#title': xeql8_card
+  '#title_display': invisible
+  xeql8:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness makes me concerned about the looks of my teeth and mouth.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons     
+xeql9_card:
+  '#type': card
+  '#title': xeql9_card
+  '#title_display': invisible
+  xeql9:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness keeps me from enjoying life.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons        
+xeql10_card:
+  '#type': card
+  '#title': xeql10_card
+  '#title_display': invisible
+  xeql10:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness interferes with my daily activities.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons        
+xeql11_card:
+  '#type': card
+  '#title': xeql11_card
+  '#title_display': invisible
+  xeql11:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness interferes with my intimate relationships.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons      
+xeql12_card:
+  '#type': card
+  '#title': xeql12_card
+  '#title_display': invisible
+  xeql12:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness has a bad effect on tasting food.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons          
+xeql13_card:
+  '#type': card
+  '#title': xeql13_card
+  '#title_display': invisible
+  xeql13:
+    '#type': radios
+    '#title': 'During the past 7 days my mouth/throat dryness reduces my general happiness with life.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons      
+xeql14_card:
+  '#type': card
+  '#title': xeql14_card
+  '#title_display': invisible
+  xeql14:
+    '#type': radios
+    '#title': 'During the past 7 days mouth/throat dryness affects all aspects of my life.'
+    '#description_display': before
+    '#options': xeqols_options
+    '#options_display': buttons      
+xeql15_card:
+  '#type': card
+  '#title': xeql15_card
+  '#title_display': invisible
+  xeql15:
+    '#type': radios
+    '#title': 'If you were to spend the rest of your life with your mouth/throat dryness just the way it is now, how would you feel about this?.'
+    '#description_display': before
+    '#options': delight_scale
+    '#options_display': buttons      
