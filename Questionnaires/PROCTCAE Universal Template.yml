@@ -764,5 +764,122 @@ introduction:
     '#options': proctcae_interference_scale
     '#options_display': buttons
     '#required': true       
+54a:
+  '#type': card
+  '#title': 54a
+  proctcae_anxious_frequency:
+    '#type': radios
+    '#title': '. In the last 7 days, how OFTEN did you FEEL ANXIETY?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+54b:
+  '#type': card
+  '#title': 54b
+  proctcae_anxious_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your ANXIETY at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+54c:
+  '#type': card
+  '#title': 54c
+  proctcae_anxious_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did ANXIETY INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true        
+55a:
+  '#type': card
+  '#title': 55a
+  proctcae_discouraged_frequency:
+    '#type': radios
+    '#title': '. In the last 7 days, how OFTEN did you FEEL THAT NOTHING COULD CHEER YOU UP?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+55b:
+  '#type': card
+  '#title': 55b
+  proctcae_discouraged_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your FEELINGS THAT NOTHING COULD CHEER YOU UP at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+55c:
+  '#type': card
+  '#title': 55c
+  proctcae_discouraged_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did FEELING THAT NOTHING COULD CHEER YOU UP INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true           
+56a:
+  '#type': card
+  '#title': 56a
+  proctcae_sad_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, how OFTEN did you have SAD OR UNHAPPY FEELINGS?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+56b:
+  '#type': card
+  '#title': 56b
+  proctcae_sad_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your SAD OR UNHAPPY FEELINGS at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+56c:
+  '#type': card
+  '#title': 56c
+  proctcae_sad_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did SAD OR UNHAPPY FEELINGS INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true   
+57:
+  '#type': card
+  '#title': 57
+  proctcae_vaginal_bleeding:
+    '#type': radios
+    '#title': ' In the last 7 days, did you have any IRREGULAR MENSTRUAL PERIODS?'
+    '#options': proctcae_boolean_with_na_scale
+    '#options_display': buttons
+    '#required': true     
+58:
+  '#type': card
+  '#title': 58
+  proctcae_missed_expected_period:
+    '#type': radios
+    '#title': 'In the last 7 days, did you MISS AN EXPECTED MENSTRUAL PERIOD?'
+    '#options': proctcae_boolean_with_na_scale
+    '#options_display': buttons
+    '#required': true      
+59:
+  '#type': card
+  '#title': 59
+  proctcae_vaginal_discharge_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any UNUSUAL VAGINAL DISCHARGE?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true        
+60:
+  '#type': card
+  '#title': 60
+  proctcae_vaginal_dryness_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your VAGINAL DRYNESS at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
     
     
