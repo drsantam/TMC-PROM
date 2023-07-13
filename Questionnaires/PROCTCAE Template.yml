@@ -9,129 +9,129 @@ introduction:
 1a:
   '#type': card
   '#title': 1a
-  appetite_severity:
+  proctcae_dry_mouth:
     '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your DECREASED APPETITE at its WORST ?'
+    '#title': ' In the last 7 days, what was the SEVERITY of your DRY MOUTH at its WORST?'
     '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true
-1b:
-  '#type': card
-  '#title': 1b
-  appetite_interference:
-    '#type': radios
-    '#title': 'In the last 7 days, how much did DECREASED APPETITE INTERFERE with your usual or daily activities ?'
-    '#options': proctcae_interference_scale
     '#options_display': buttons
     '#required': true
 2a:
   '#type': card
   '#title': 2a
-  nausea_frequency:
+  proctcae_difficulty_swallowing:
     '#type': radios
-    '#title': 'In the last 7 days, how OFTEN did you have NAUSEA ?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true
-2b:
-  '#type': card
-  '#title': 2b
-  nausea_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your NAUSEA at its WORST ?'
+    '#title': ' In the last 7 days, what was the SEVERITY of your DIFFICULTY SWALLOWING at its WORST?'
     '#options': proctcae_severity_scale
     '#options_display': buttons
     '#required': true
 3a:
   '#type': card
   '#title': 3a
-  gas:
+  proctcae_mouth_sores_severity:
     '#type': radios
-    '#title': 'In the last 7 days, did you have any INCREASED PASSING OF GAS (FLATULENCE)?'
-    '#options': proctcae_boolean_scale
+    '#title': ' In the last 7 days, what was the SEVERITY of your MOUTH OR THROAT SORES at their WORST?'
+    '#options': proctcae_severity_scale
     '#options_display': buttons
-    '#required': true    
+    '#required': true
+3b:
+  '#type': card
+  '#title': 3b
+  proctcae_mouth_sores_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did MOUTH OR THROAT SORES INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true
 4a:
   '#type': card
   '#title': 4a
-  bloating_frequency:
+  proctcae_cheilitis_severity:
     '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have BLOATING OF THE ABDOMEN (BELLY)?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true   
-4b:
-  '#type': card
-  '#title': 4a
-  bloating_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your BLOATING OF THE ABDOMEN (BELLY) at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true        
-5a:
-  '#type': card
-  '#title': 5a
-  hiccups_frequency:
-    '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have HICCUPS?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true   
-5b:
-  '#type': card
-  '#title': 4a
-  hiccups_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your HICCUPS at its WORST?'
+    '#title': 'In the last 7 days, what was the SEVERITY of SKIN CRACKING AT THE CORNERS OF YOUR MOUTH at its WORST?'
     '#options': proctcae_severity_scale
     '#options_display': buttons
     '#required': true    
+5a:
+  '#type': card
+  '#title': 5a
+  proctcae_voice_quality_changes:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any VOICE CHANGES?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true   
 6a:
   '#type': card
   '#title': 6a
-  constipation_severity:
+  proctcae_hoarseness_severity:
     '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your CONSTIPATION at its WORST?'
+    '#title': ' In the last 7 days, what was the SEVERITY of your HOARSE VOICE at its WORST?'
     '#options': proctcae_severity_scale
     '#options_display': buttons
-    '#required': true 
-    
-6b:
-  '#type': card
-  '#title': 6b
-  diarrhea_frequency:
-    '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have LOOSE OR WATERY STOOLS (DIARRHEA/DIARRHOEA)?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true 
-    
+    '#required': true        
 7a:
   '#type': card
   '#title': 7a
-  abd_pain_frequency:
+  proctcae_taste_severity:
     '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have PAIN IN THE ABDOMEN (BELLY AREA)?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true   
-7b:
-  '#type': card
-  '#title': 7b
-  abd_pain_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your PAIN IN THE ABDOMEN (BELLY AREA) at its WORST?'
+    '#title': '  In the last 7 days, what was the SEVERITY of your PROBLEMS WITH TASTING FOOD OR DRINK at their WORST?'
     '#options': proctcae_severity_scale
     '#options_display': buttons
-    '#required': true 
-7c:
+    '#required': true   
+8a:
   '#type': card
-  '#title': 7c
-  abd_pain_interference:
+  '#title': 8a
+  proctcae_anorexia_severity:
     '#type': radios
-    '#title': ' In the last 7 days, how much did PAIN IN THE ABDOMEN (BELLY AREA) INTERFERE with your usual or daily activities?'
+    '#title': '  In the last 7 days, what was the SEVERITY of your DECREASED APPETITE at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+8b:
+  '#type': card
+  '#title': 8b
+  proctcae_anorexia_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did DECREASED APPETITE INTERFERE with your usual or daily activities?'
     '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true 
+    
+9a:
+  '#type': card
+  '#title': 9a
+  proctcae_nausea_frequency:
+    '#type': radios
+    '#title': ' In the last 7 days, how OFTEN did you have NAUSEA?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true 
+    
+9b:
+  '#type': card
+  '#title': 9b
+  proctcae_nausea_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your NAUSEA at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true   
+10a:
+  '#type': card
+  '#title': 10a
+  proctcae_vomiting_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, how OFTEN did you have VOMITING ?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true 
+10b:
+  '#type': card
+  '#title': 10b
+  proctcae_vomiting_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your VOMITING at its WORST?'
+    '#options': proctcae_severity_scale
     '#options_display': buttons
     '#required': true     
 8a:
