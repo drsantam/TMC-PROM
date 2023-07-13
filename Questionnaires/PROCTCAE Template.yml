@@ -278,4 +278,266 @@ introduction:
     '#options': proctcae_interference_scale
     '#options_display': buttons
     '#required': true        
+20a:
+  '#type': card
+  '#title': 20a
+  proctcae_cough_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your COUGH at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true 
+20b:
+  '#type': card
+  '#title': 20b
+  proctcae_cough_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did COUGH INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true     
+21a:
+  '#type': card
+  '#title': 21a
+  proctcae_wheezing:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your WHEEZING (WHISTLING NOISE IN THE CHEST WITH BREATHING) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true  
+22a:
+  '#type': card
+  '#title': 22a
+  proctcae_swelling_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, how OFTEN did you have ARM OR LEG SWELLING?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true         
+22b:
+  '#type': card
+  '#title': 22b
+  proctcae_swelling_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your ARM OR LEG SWELLING at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true          
+22c:
+  '#type': card
+  '#title': 22c
+  proctcae_swelling_interference:
+    '#type': radios
+    '#title': 'In the last 7 days, how much did ARM OR LEG SWELLING INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true       
+23a:
+  '#type': card
+  '#title': 23a
+  proctcae_palpitation_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, how OFTEN did you feel a POUNDING OR RACING HEARTBEAT (PALPITATIONS)?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true          
+23b:
+  '#type': card
+  '#title': 23b
+  proctcae_palpitation_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your POUNDING OR RACING HEARTBEAT (PALPITATIONS) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true   
+24:
+  '#type': card
+  '#title': 24
+  proctcae_rash:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any RASH?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true      
+25:
+  '#type': card
+  '#title': 25
+  proctcae_skin_dryness_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your DRY SKIN at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true     
+26:
+  '#type': card
+  '#title': 26
+  proctcae_acne_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your ACNE OR PIMPLES ON THE FACE OR CHEST at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true       
+27:
+  '#type': card
+  '#title': 27
+  proctcae_hair_loss_frequency:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any HAIR LOSS?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+28:
+  '#type': card
+  '#title': 28
+  proctcae_itching_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your ITCHY SKIN at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true     
+29:
+  '#type': card
+  '#title': 29
+  proctcae_hives:
+    '#type': radios
+    '#title': ' In the last 7 days, did you have any HIVES (ITCHY RED BUMPS ON THE SKIN)?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true     
+30:
+  '#type': card
+  '#title': 30
+  proctcae_hfs_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your HAND-FOOT SYNDROME (A RASH OF THE HANDS OR FEET THAT CAN CAUSE CRACKING, PEELING, REDNESS OR PAIN) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true      
+31:
+  '#type': card
+  '#title': 31
+  proctcae_nail_loss:
+    '#type': radios
+    '#title': 'In the last 7 days, did you LOSE ANY FINGERNAILS OR TOENAILS?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true      
+32:
+  '#type': card
+  '#title': 32
+  proctcae_nail_ridging:
+    '#type': radios
+    '#title': ' In the last 7 days, did you have any RIDGES OR BUMPS ON YOUR FINGERNAILS OR TOENAILS?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true        
+33:
+  '#type': card
+  '#title': 33
+  proctcae_nail_discoloration:
+    '#type': radios
+    '#title': ' In the last 7 days, did you have any CHANGE IN THE COLOR OF YOUR FINGERNAILS OR TOENAILS?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true      
+34:
+  '#type': card
+  '#title': 34
+  proctcae_sun_sensitivity:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any INCREASED SKIN SENSITIVITY TO SUNLIGHT?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true          
+35:
+  '#type': card
+  '#title': 35
+  proctcae_bed_sore:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any BED SORES?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true         
+36:
+  '#type': card
+  '#title': 36
+  proctcae_radiation_dermatitis_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your SKIN BURNS FROM RADIATION at their WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true     
+37:
+  '#type': card
+  '#title': 37
+  proctcae_skin_darkening:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any UNUSUAL DARKENING OF THE SKIN?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true     
+38:
+  '#type': card
+  '#title': 38
+  proctcae_stretch_marks:
+    '#type': radios
+    '#title': 'In the last 7 days, did you have any STRETCH MARKS?'
+    '#options': proctcae_boolean_scale
+    '#options_display': buttons
+    '#required': true      
+39a:
+  '#type': card
+  '#title': 39a
+  proctcae_sensory_neuropathy_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your NUMBNESS OR TINGLING IN YOUR HANDS OR FEET at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+39b:
+  '#type': card
+  '#title': 39b
+  proctcae_sensory_neuropathy_interference:
+    '#type': radios
+    '#title': 'In the last 7 days, how much did NUMBNESS OR TINGLING IN YOUR HANDS OR FEET INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true     
+40a:
+  '#type': card
+  '#title': 40a
+  proctcae_dizziness_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your DIZZINESS at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+40b:
+  '#type': card
+  '#title': 40b
+  proctcae_dizziness_interference:
+    '#type': radios
+    '#title': 'In the last 7 days, how much did DIZZINESS INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true    
+41a:
+  '#type': card
+  '#title': 41a
+  proctcae_blurred_vision_severity:
+    '#type': radios
+    '#title': ' In the last 7 days, what was the SEVERITY of your BLURRY VISION at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+41b:
+  '#type': card
+  '#title': 41b
+  proctcae_blurred_vision_interference:
+    '#type': radios
+    '#title': '  In the last 7 days, how much did BLURRY VISION INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true     
+    
     
