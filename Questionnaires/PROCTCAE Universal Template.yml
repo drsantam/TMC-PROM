@@ -619,6 +619,150 @@ introduction:
     '#title': ' In the last 7 days, how much did PROBLEMS WITH MEMORY INTERFERE with your usual or daily activities?'
     '#options': proctcae_interference_scale
     '#options_display': buttons
+    '#required': true 
+48a:
+  '#type': card
+  '#title': 48a
+  proctcae_general_pain_frequency:
+    '#type': radios
+    '#title': '. In the last 7 days, how OFTEN did you have PAIN?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+48b:
+  '#type': card
+  '#title': 48b
+  proctcae_general_pain_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your PAIN at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+48c:
+  '#type': card
+  '#title': 48c
+  proctcae_general_pain_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did PAIN INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true      
+49a:
+  '#type': card
+  '#title': 49a
+  proctcae_headache_frequency:
+    '#type': radios
+    '#title': '. In the last 7 days, how OFTEN did you have HEADACHE?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+49b:
+  '#type': card
+  '#title': 49b
+  proctcae_headache_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your HEADACHE at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+49c:
+  '#type': card
+  '#title': 49c
+  proctcae_headache_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did HEADACHE INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true     
+50a:
+  '#type': card
+  '#title': 50a
+  proctcae_myalgia_frequency:
+    '#type': radios
+    '#title': '. In the last 7 days, how OFTEN did you have ACHING MUSCLES?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+50b:
+  '#type': card
+  '#title': 50b
+  proctcae_myalgia_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your ACHING MUSCLES at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+50c:
+  '#type': card
+  '#title': 50c
+  proctcae_myalgia_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did ACHING MUSCLES INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true   
+51a:
+  '#type': card
+  '#title': 51a
+  proctcae_joint_pain_frequency:
+    '#type': radios
+    '#title': '. In the last 7 days, how OFTEN did you have ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS)?'
+    '#options': proctcae_frequency_scale
+    '#options_display': buttons
+    '#required': true    
+51b:
+  '#type': card
+  '#title': 51b
+  proctcae_joint_pain_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+51c:
+  '#type': card
+  '#title': 51c
+  proctcae_joint_pain_interference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS) INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true    
+52a:
+  '#type': card
+  '#title': 52a
+  proctcae_insomnia_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your INSOMNIA (INCLUDING DIFFICULTY FALLING ASLEEP, STAYING ASLEEP, OR WAKING UP EARLY) at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+52b:
+  '#type': card
+  '#title': 52b
+  proctcae_insomnia_inteference:
+    '#type': radios
+    '#title': ' In the last 7 days, how much did INSOMNIA (INCLUDING DIFFICULTY FALLING ASLEEP, STAYING ASLEEP, OR WAKING UP EARLY) INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
+    '#required': true     
+53a:
+  '#type': card
+  '#title': 53a
+  proctcae_fatigue_severity:
+    '#type': radios
+    '#title': 'In the last 7 days, what was the SEVERITY of your FATIGUE, TIREDNESS, OR LACK OF ENERGY at its WORST?'
+    '#options': proctcae_severity_scale
+    '#options_display': buttons
+    '#required': true    
+53b:
+  '#type': card
+  '#title': 53b
+  proctcae_fatigue_inteference:
+    '#type': radios
+    '#title': 'In the last 7 days, how much did FATIGUE, TIREDNESS, OR LACK OF ENERGY INTERFERE with your usual or daily activities?'
+    '#options': proctcae_interference_scale
+    '#options_display': buttons
     '#required': true       
     
     
