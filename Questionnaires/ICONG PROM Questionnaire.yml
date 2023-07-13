@@ -1,0 +1,116 @@
+introduction:
+  '#type': card
+  '#title': Introduction
+  '#title_display': invisible
+  icong_introduction:
+    '#type': processed_text
+    '#text': '<p>During Radiation treatment, patients sometimes report that they have the following symptoms or problems. Please indicate the extent to which you have experienced these symptoms or problems during the past week.</p><p>Please choose the option by pressing the button which best applies to your problems or symptoms.</p>'
+    '#format': basic_html
+q1:
+  '#type': card
+  '#title': q1
+  '#title_display': invisible
+  icong_q1:
+    '#type': radios
+    '#title': 'During the past week did you need to rest ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q2:
+  '#type': card
+  '#title': q2
+  '#title_display': invisible
+  icong_q2:
+    '#type': radios
+    '#title': 'During the past week have you lacked appetite ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q3:
+  '#type': card
+  '#title': q3
+  '#title_display': invisible
+  icong_q3:
+    '#type': radios
+    '#title': 'During the past week have you felt nauseated ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q4:
+  '#type': card
+  '#title': q4
+  '#title_display': invisible
+  icong_q4:
+    '#type': radios
+    '#title': 'During the past week have you vomited ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q5:
+  '#type': card
+  '#title': q5
+  '#title_display': invisible
+  icong_q5:
+    '#type': radios
+    '#title': 'During the past week did you have abdominal pain ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q6:
+  '#type': card
+  '#title': q6
+  '#title_display': invisible
+  icong_q6:
+    '#type': radios
+    '#title': 'During the past week have you been constipated ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q7:
+  '#type': card
+  '#title': q7
+  '#title_display': invisible
+  icong_q7:
+    '#type': radios
+    '#title': 'During the past week have you had diarrhea ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q8:
+  '#type': card
+  '#title': q8
+  '#title_display': invisible
+  icong_q8:
+    '#type': radios
+    '#title': 'During the past week have you had acid indigestion or heartburn ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q9:
+  '#type': card
+  '#title': q9
+  '#title_display': invisible
+  icong_q9:
+    '#type': radios
+    '#title': 'During the past week have you had a pain or burning feeling when passing urine ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q10:
+  '#type': card
+  '#title': q10
+  '#title_display': invisible
+  icong_q10:
+    '#type': radios
+    '#title': 'During the past week have you passed urine frequently ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q11:
+  '#type': card
+  '#title': q11
+  '#title_display': invisible
+  icong_q11:
+    '#type': radios
+    '#title': 'During the past week have you had any unintentional release (leakage) of urine ?'
+    '#options': eortc_options
+    '#options_display': buttons
+q12:
+  '#type': card
+  '#title': q12
+  '#title_display': invisible
+  icong_q12:
+    '#type': radios
+    '#title': 'During the past week  when you felt the urge to pass urine, did you have to hurry to get to the toilet ?'
+    '#options': eortc_options
+    '#options_display': buttons
