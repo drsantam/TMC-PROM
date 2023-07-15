@@ -890,239 +890,237 @@ introduction:
     '#options': proctcae_severity_scale
     '#options_display': buttons
     '#required': true    
- 62a:
-  '#type': card
-  '#title': 62a
-  proctcae_urinary_urgency_frequency:
-    '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you feel an URGE TO URINATE ALL OF A SUDDEN?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true    
- 62b:
-  '#type': card
-  '#title': 62b
-  proctcae_urinary_urgency_interference:
-    '#type': radios
-    '#title': 'In the last 7 days, how much did SUDDEN URGES TO URINATE INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true     
- 63a:
-  '#type': card
-  '#title': 63a
-  proctcae_urinary_fequency_frequency:
-    '#type': radios
-    '#title': 'In the last 7 days, were there times when you had to URINATE FREQUENTLY?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true    
- 63b:
-  '#type': card
-  '#title': 63b
-  proctcae_urinary_frquency_interference:
-    '#type': radios
-    '#title': 'In the last 7 days, how much did FREQUENT URINATION INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true  
- 64:
-  '#type': card
-  '#title': 64
-  proctcae_urinary_color_change:
-    '#type': radios
-    '#title': 'In the last 7 days, did you have any URINE COLOR CHANGE?'
-    '#options': proctcae_boolean_scale
-    '#options_display': buttons
-    '#required': true        
- 65a:
-  '#type': card
-  '#title': 65a
-  proctcae_urinary_incontinence_frequency:
-    '#type': radios
-    '#title': 'In the last 7 days, how OFTEN did you have LOSS OF CONTROL OF URINE (LEAKAGE)?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true           
- 65b:
-  '#type': card
-  '#title': 65b
-  proctcae_urinary_incontinence_interference:
-    '#type': radios
-    '#title': ' In the last 7 days, how much did LOSS OF CONTROL OF URINE (LEAKAGE) INTERFERE with your usual or daily activities?'
-    '#options': proctcae_interference_scale
-    '#options_display': buttons
-    '#required': true      
- 66:
-  '#type': card
-  '#title': 66
-  proctcae_erection_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your DIFFICULTY GETTING OR KEEPING AN ERECTION at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true     
- 67:
-  '#type': card
-  '#title': 67
-  proctcae_ejaculation_frequency:
-    '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have EJACULATION PROBLEMS?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true        
- 68:
-  '#type': card
-  '#title': 68
-  proctcae_reduced_libido_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your DECREASED SEXUAL INTEREST at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true      
- 69:
-  '#type': card
-  '#title': 69
-  proctcae_delayed_orgasm:
-    '#type': radios
-    '#title': 'In the last 7 days, did you feel that it TOOK TOO LONG TO HAVE AN ORGASM OR CLIMAX?'
-    '#options': proctcae_boolean_scale
-    '#options_display': buttons
-    '#required': true    
- 70:
-  '#type': card
-  '#title': 70
-  proctcae_inability_orgasm:
-    '#type': radios
-    '#title': 'In the last 7 days, were you UNABLE TO HAVE AN ORGASM OR CLIMAX?'
-    '#options': proctcae_boolean_scale
-    '#options_display': buttons
-    '#required': true        
- 71:
-  '#type': card
-  '#title': 71
-  proctcae_pain_intercourse_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your PAIN DURING VAGINAL SEX at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true            
- 72:
-  '#type': card
-  '#title': 72
-  proctcae_breast_swelling_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your BREAST AREA ENLARGEMENT OR TENDERNESS at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true    
- 73:
-  '#type': card
-  '#title': 73
-  proctcae_bruising:
-    '#type': radios
-    '#title': 'In the last 7 days, did you BRUISE EASILY (BLACK AND BLUE MARKS)?'
-    '#options': proctcae_boolean_scale
-    '#options_display': buttons
-    '#required': true     
- 74a:
-  '#type': card
-  '#title': 74a
-  proctcae_chills_frequency:
-    '#type': radios
-    '#title': ' In the last 7 days, how OFTEN did you have SHIVERING OR SHAKING CHILLS?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true 
- 74b:
-  '#type': card
-  '#title': 74b
-  proctcae_chills_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your SHIVERING OR SHAKING CHILLS at their WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true     
- 75a:
-  '#type': card
-  '#title': 75a
-  proctcae_increased_sweating_frequency:
-    '#type': radios
-    '#title': '  In the last 7 days, how OFTEN did you have UNEXPECTED OR EXCESSIVE SWEATING DURING THE DAY OR NIGHTIME (NOT RELATED TO HOT FLASHES/FLUSHES)?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true 
- 75b:
-  '#type': card
-  '#title': 75b
-  proctcae_increased_sweating_severity:
-    '#type': radios
-    '#title': 'In the last 7 days, what was the SEVERITY of your UNEXPECTED OR EXCESSIVE SWEATING DURING THE DAY OR NIGHTTIME (NOT RELATED TO THE HOT FLASHES/FLUSHES) at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true    
- 76:
-  '#type': card
-  '#title': 76
-  proctcae_reduced_sweating:
-    '#type': radios
-    '#title': 'In the last 7 days, did you have an UNEXPECTED DECREASE IN SWEATING?'
-    '#options': proctcae_boolean_scale
-    '#options_display': buttons
-    '#required': true      
- 77a:
-  '#type': card
-  '#title': 77a
-  proctcae_hot_flashes_frequency:
-    '#type': radios
-    '#title': '  In the last 7 days, how OFTEN did you have HOT FLASHES/FLUSHES?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true 
- 77b:
-  '#type': card
-  '#title': 77b
-  proctcae_hot_flashes_severity:
-    '#type': radios
-    '#title': '  In the last 7 days, what was the SEVERITY of your HOT FLASHES/FLUSHES at their WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true     
- 78a:
-  '#type': card
-  '#title': 78a
-  proctcae_nosebleed_frequency:
-    '#type': radios
-    '#title': 'In the last 7 days, how OFTEN did you have NOSEBLEEDS?'
-    '#options': proctcae_frequency_scale
-    '#options_display': buttons
-    '#required': true 
- 78b:
-  '#type': card
-  '#title': 78b
-  proctcae_nosebleed_severity:
-    '#type': radios
-    '#title': '  In the last 7 days, what was the SEVERITY of your NOSEBLEEDS at their WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true       
- 79:
-  '#type': card
-  '#title': 79
-  proctcae_injection_site_swelling:
-    '#type': radios
-    '#title': 'In the last 7 days, did you HAVE ANY PAIN, SWELLING, OR REDNESS AT A SITE OF DRUG INJECTION OR IV?'
-    '#options': proctcae_boolean_na_scale
-    '#options_display': buttons
-    '#required': true      
- 80:
-  '#type': card
-  '#title': 80
-  proctcae_body_odor_severity:
-    '#type': radios
-    '#title': ' In the last 7 days, what was the SEVERITY of your BODY ODOR at its WORST?'
-    '#options': proctcae_severity_scale
-    '#options_display': buttons
-    '#required': true       
-    
-    
+62a:
+ '#type': card
+ '#title': 62a
+ proctcae_urinary_urgency_frequency:
+   '#type': radios
+   '#title': ' In the last 7 days, how OFTEN did you feel an URGE TO URINATE ALL OF A SUDDEN?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true    
+62b:
+ '#type': card
+ '#title': 62b
+ proctcae_urinary_urgency_interference:
+   '#type': radios
+   '#title': 'In the last 7 days, how much did SUDDEN URGES TO URINATE INTERFERE with your usual or daily activities?'
+   '#options': proctcae_interference_scale
+   '#options_display': buttons
+   '#required': true     
+63a:
+ '#type': card
+ '#title': 63a
+ proctcae_urinary_fequency_frequency:
+   '#type': radios
+   '#title': 'In the last 7 days, were there times when you had to URINATE FREQUENTLY?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true    
+63b:
+ '#type': card
+ '#title': 63b
+ proctcae_urinary_frquency_interference:
+   '#type': radios
+   '#title': 'In the last 7 days, how much did FREQUENT URINATION INTERFERE with your usual or daily activities?'
+   '#options': proctcae_interference_scale
+   '#options_display': buttons
+   '#required': true  
+64:
+ '#type': card
+ '#title': 64
+ proctcae_urinary_color_change:
+   '#type': radios
+   '#title': 'In the last 7 days, did you have any URINE COLOR CHANGE?'
+   '#options': proctcae_boolean_scale
+   '#options_display': buttons
+   '#required': true        
+65a:
+ '#type': card
+ '#title': 65a
+ proctcae_urinary_incontinence_frequency:
+   '#type': radios
+   '#title': 'In the last 7 days, how OFTEN did you have LOSS OF CONTROL OF URINE (LEAKAGE)?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true           
+65b:
+ '#type': card
+ '#title': 65b
+ proctcae_urinary_incontinence_interference:
+   '#type': radios
+   '#title': ' In the last 7 days, how much did LOSS OF CONTROL OF URINE (LEAKAGE) INTERFERE with your usual or daily activities?'
+   '#options': proctcae_interference_scale
+   '#options_display': buttons
+   '#required': true      
+66:
+ '#type': card
+ '#title': 66
+ proctcae_erection_severity:
+   '#type': radios
+   '#title': ' In the last 7 days, what was the SEVERITY of your DIFFICULTY GETTING OR KEEPING AN ERECTION at its WORST?'
+   '#options': proctcae_sexual_severity_scale
+   '#options_display': buttons
+   '#required': true     
+67:
+ '#type': card
+ '#title': 67
+ proctcae_ejaculation_frequency:
+   '#type': radios
+   '#title': ' In the last 7 days, how OFTEN did you have EJACULATION PROBLEMS?'
+   '#options': proctcae_sexual_frequency_scale
+   '#options_display': buttons
+   '#required': true        
+68:
+ '#type': card
+ '#title': 68
+ proctcae_reduced_libido_severity:
+   '#type': radios
+   '#title': 'In the last 7 days, what was the SEVERITY of your DECREASED SEXUAL INTEREST at its WORST?'
+   '#options': proctcae_sexual_severity_scale
+   '#options_display': buttons
+   '#required': true      
+69:
+ '#type': card
+ '#title': 69
+ proctcae_delayed_orgasm:
+   '#type': radios
+   '#title': 'In the last 7 days, did you feel that it TOOK TOO LONG TO HAVE AN ORGASM OR CLIMAX?'
+   '#options': proctcae_sexual_boolean_scale
+   '#options_display': buttons
+   '#required': true    
+70:
+ '#type': card
+ '#title': 70
+ proctcae_inability_orgasm:
+   '#type': radios
+   '#title': 'In the last 7 days, were you UNABLE TO HAVE AN ORGASM OR CLIMAX?'
+   '#options': proctcae_sexual_boolean_scale
+   '#options_display': buttons
+   '#required': true        
+71:
+ '#type': card
+ '#title': 71
+ proctcae_pain_intercourse_severity:
+   '#type': radios
+   '#title': 'In the last 7 days, what was the SEVERITY of your PAIN DURING VAGINAL SEX at its WORST?'
+   '#options': proctcae_sexual_severity_scale
+   '#options_display': buttons
+   '#required': true            
+72:
+ '#type': card
+ '#title': 72
+ proctcae_breast_swelling_severity:
+   '#type': radios
+   '#title': 'In the last 7 days, what was the SEVERITY of your BREAST AREA ENLARGEMENT OR TENDERNESS at its WORST?'
+   '#options': proctcae_severity_scale
+   '#options_display': buttons
+   '#required': true    
+73:
+ '#type': card
+ '#title': 73
+ proctcae_bruising:
+   '#type': radios
+   '#title': 'In the last 7 days, did you BRUISE EASILY (BLACK AND BLUE MARKS)?'
+   '#options': proctcae_boolean_scale
+   '#options_display': buttons
+   '#required': true     
+74a:
+ '#type': card
+ '#title': 74a
+ proctcae_chills_frequency:
+   '#type': radios
+   '#title': ' In the last 7 days, how OFTEN did you have SHIVERING OR SHAKING CHILLS?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true 
+74b:
+ '#type': card
+ '#title': 74b
+ proctcae_chills_severity:
+   '#type': radios
+   '#title': ' In the last 7 days, what was the SEVERITY of your SHIVERING OR SHAKING CHILLS at their WORST?'
+   '#options': proctcae_severity_scale
+   '#options_display': buttons
+   '#required': true     
+75a:
+ '#type': card
+ '#title': 75a
+ proctcae_increased_sweating_frequency:
+   '#type': radios
+   '#title': '  In the last 7 days, how OFTEN did you have UNEXPECTED OR EXCESSIVE SWEATING DURING THE DAY OR NIGHTIME (NOT RELATED TO HOT FLASHES/FLUSHES)?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true 
+75b:
+ '#type': card
+ '#title': 75b
+ proctcae_increased_sweating_severity:
+   '#type': radios
+   '#title': 'In the last 7 days, what was the SEVERITY of your UNEXPECTED OR EXCESSIVE SWEATING DURING THE DAY OR NIGHTTIME (NOT RELATED TO THE HOT FLASHES/FLUSHES) at its WORST?'
+   '#options': proctcae_severity_scale
+   '#options_display': buttons
+   '#required': true    
+76:
+ '#type': card
+ '#title': 76
+ proctcae_reduced_sweating:
+   '#type': radios
+   '#title': 'In the last 7 days, did you have an UNEXPECTED DECREASE IN SWEATING?'
+   '#options': proctcae_boolean_scale
+   '#options_display': buttons
+   '#required': true      
+77a:
+ '#type': card
+ '#title': 77a
+ proctcae_hot_flashes_frequency:
+   '#type': radios
+   '#title': '  In the last 7 days, how OFTEN did you have HOT FLASHES/FLUSHES?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true 
+77b:
+ '#type': card
+ '#title': 77b
+ proctcae_hot_flashes_severity:
+   '#type': radios
+   '#title': '  In the last 7 days, what was the SEVERITY of your HOT FLASHES/FLUSHES at their WORST?'
+   '#options': proctcae_severity_scale
+   '#options_display': buttons
+   '#required': true     
+78a:
+ '#type': card
+ '#title': 78a
+ proctcae_nosebleed_frequency:
+   '#type': radios
+   '#title': 'In the last 7 days, how OFTEN did you have NOSEBLEEDS?'
+   '#options': proctcae_frequency_scale
+   '#options_display': buttons
+   '#required': true 
+78b:
+ '#type': card
+ '#title': 78b
+ proctcae_nosebleed_severity:
+   '#type': radios
+   '#title': '  In the last 7 days, what was the SEVERITY of your NOSEBLEEDS at their WORST?'
+   '#options': proctcae_severity_scale
+   '#options_display': buttons
+   '#required': true       
+79:
+ '#type': card
+ '#title': 79
+ proctcae_injection_site_swelling:
+   '#type': radios
+   '#title': 'In the last 7 days, did you HAVE ANY PAIN, SWELLING, OR REDNESS AT A SITE OF DRUG INJECTION OR IV?'
+   '#options': proctcae_boolean_na_scale
+   '#options_display': buttons
+   '#required': true      
+80:
+ '#type': card
+ '#title': 80
+ proctcae_body_odor_severity:
+   '#type': radios
+   '#title': ' In the last 7 days, what was the SEVERITY of your BODY ODOR at its WORST?'
+   '#options': proctcae_severity_scale
+   '#options_display': buttons
+   '#required': true  
