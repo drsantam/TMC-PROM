@@ -12,6 +12,10 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
 # Install php extensions
 RUN pecl install apcu
 RUN pecl install uploadprogress
+# Enable apcu
+RUN docker-php-ext-enable apcu
+RUN docker-php-ext-enable uploadprogress
+
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer && \
