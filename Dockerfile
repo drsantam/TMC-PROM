@@ -2,7 +2,7 @@ FROM drupal:latest
 
 # Install packages
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
-    apt update && apt install --no-install-recommends -y \
+    apt-get update && apt-get install --no-install-recommends -y \
     curl \
     php-pear \
     php-apcu \
