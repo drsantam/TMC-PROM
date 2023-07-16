@@ -50,7 +50,15 @@ RUN { \
 		echo 'opcache.enable_cli=1'; \
 	} > /usr/local/etc/php/conf.d/opcache-recommended.ini
 
+RUN { \
+		echo 'realpath_cache_size = 256k'; \
+		echo 'memory_limit = 512M'; \
+		echo 'upload_max_filesize = 50M'; \
+		echo 'post_max_size = 50M'; \
+	} >  /usr/local/etc/php/conf.d/my.ini
+
 #RUN mkdir -p /var/lib/php/session
+
 #RUN chown -R www-data:www-data /var/lib/php/session
 
 # Install contributed modules
