@@ -1,0 +1,1 @@
+This folder has the yaml configuration files for the different PROM instruments. Please note that these are copyright of the respective organizations and have different liscencing terms. Please take appropriate permission before using the questionnaire. 
