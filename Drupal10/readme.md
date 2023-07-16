@@ -1,0 +1,1 @@
+This folder contains the docker compose and dockerfile to deploy the TMC PROM application on your server. Note that there are several server configuation issues to consider but in this folder the dockerfile and docker compose files will be available.
