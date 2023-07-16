@@ -851,7 +851,7 @@ introduction:
   proctcae_vaginal_bleeding:
     '#type': radios
     '#title': ' In the last 7 days, did you have any IRREGULAR MENSTRUAL PERIODS?'
-    '#options': proctcae_boolean_with_na_scale
+    '#options': proctcae_boolean_na_scale
     '#options_display': buttons
     '#required': true     
 58:
@@ -860,7 +860,7 @@ introduction:
   proctcae_missed_expected_period:
     '#type': radios
     '#title': 'In the last 7 days, did you MISS AN EXPECTED MENSTRUAL PERIOD?'
-    '#options': proctcae_boolean_with_na_scale
+    '#options': proctcae_boolean_na_scale
     '#options_display': buttons
     '#required': true      
 59:
