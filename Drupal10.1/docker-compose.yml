@@ -10,8 +10,7 @@ services:
       - promdb:/var/lib/mysql
 
   drupal:
-    image: registry.gitlab.com/chavi/prom/prom:latest	
-
+    image: registry.gitlab.com/chavi/prom/prom:10.1	
     ports:
       - 8086:80
     container_name: prom_website
