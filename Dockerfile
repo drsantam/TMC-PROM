@@ -2,13 +2,19 @@ FROM drupal:latest
 
 # Install packages
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
-    apt-get update && apt-get install --no-install-recommends -y \
+    apt update && apt install --no-install-recommends -y \
     curl \
+    php-pear \
+    php-apcu \
+    php-json \
+    build-essential \
     wget \
     nano \
     git \
     unzip
-
+# Install php extensions
+RUN pecl install apcu
+RUN pecl install uploadprogress
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer && \
@@ -61,7 +67,10 @@ RUN composer require 'drupal/password_policy:^4.0' # Secure password check and a
 RUN composer require 'drupal/views_autocomplete_filters:^1.4' # Add autocomplete filter support for views filter to filter by usernames
 RUN composer require 'drupal/views_conditional:^1.5' # Allow creating conditonal statements in Views
 RUN composer require 'drupal/views_exposed_filter_blocks:^1.3' # Allows views exposed filters to be placed in blocks in layout manager
+RUN composer require 'drupal/config_translation_po:^1.0' # To allow configuration translations to be done 
 RUN composer require 'drupal/clientside_validation:^4.0' # To allow use of webform cards
 RUN composer require 'drupal/permissions_by_term:^3.1' # To setup an alternate form of permissions using taxonomy terms. 
 RUN composer require 'drupal/views_bulk_operations:^4.2' # Allow bulk operations on Views 
 RUN composer require 'drupal/administerusersbyrole:^3.4' # Allows provision of create user and edit user to specific roles for the site. 
+RUN composer require 'drupal/tmgmt:^1.15' # Translation management tool allowing users to translate content
+RUN composer require 'drupal/config_translation_po:^1.0' # Allow configuration translattions to be downloaded and translated 
