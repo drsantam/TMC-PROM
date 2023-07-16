@@ -4,9 +4,6 @@ FROM drupal:latest
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get update && apt-get install --no-install-recommends -y \
     curl \
-    php-pear \
-    php-apcu \
-    php-json \
     build-essential \
     wget \
     nano \
