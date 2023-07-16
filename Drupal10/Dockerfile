@@ -1,4 +1,5 @@
-FROM drupal:latest
+# We will use the official docker image which is based on debian slim and uses php 8.2. Drupal version 10.1 is used. Version changes can be specified.
+FROM drupal:10.1
 
 # Install packages
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
