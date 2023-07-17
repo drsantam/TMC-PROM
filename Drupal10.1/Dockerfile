@@ -69,6 +69,7 @@ RUN composer require 'drupal/token:^1.12' # Install token module
 RUN composer require 'drupal/profile:^1.7' # Allow creation of patient profiles
 RUN composer require 'drupal/webform:^6.2@beta' # To provide webform functionality
 RUN composer require 'drupal/webform_content_creator:^4.0' # Allows creating content entities from webform submission.
+RUN composer require 'drupal/webform_entity_handler:^2.0' # Alternative to webform content creator which allows creation of entitites instead of node content only. 
 RUN composer require 'drupal/dropdown_language:^4.0' # To add a better dropdown language selector
 RUN composer require 'drupal/entity:^1.4' 
 RUN composer require 'drupal/entity_print:^2.13' # To add an print PDF option for webform
@@ -91,10 +92,14 @@ RUN composer require 'drupal/password_policy:^4.0' # Secure password check and a
 RUN composer require 'drupal/views_autocomplete_filters:^1.4' # Add autocomplete filter support for views filter to filter by usernames
 RUN composer require 'drupal/views_conditional:^1.5' # Allow creating conditonal statements in Views
 RUN composer require 'drupal/views_exposed_filter_blocks:^1.3' # Allows views exposed filters to be placed in blocks in layout manager
+RUN composer require 'drupal/views_aggregator:^2.0' # Advanced aggregation on Views results
 RUN composer require 'drupal/config_translation_po:^1.0' # To allow configuration translations to be done 
 RUN composer require 'drupal/clientside_validation:^4.0' # To allow use of webform cards
 RUN composer require 'drupal/permissions_by_term:^3.1' # To setup an alternate form of permissions using taxonomy terms. 
 RUN composer require 'drupal/views_bulk_operations:^4.2' # Allow bulk operations on Views 
 RUN composer require 'drupal/administerusersbyrole:^3.4' # Allows provision of create user and edit user to specific roles for the site. 
 RUN composer require 'drupal/tmgmt:^1.15' # Translation management tool allowing users to translate content
-RUN composer require 'drupal/config_translation_po:^1.0' # Allow configuration translattions to be downloaded and translated 
+RUN composer require 'drupal/config_translation_po:^1.0' # Allow configuration translattions to be downloaded and translated
+RUN composer require 'drupal/webform_translation_permissions:^2.0' # Allows webform to be translated by users through additional permission without granting them permission to translate configuration.
+RUN composer require 'drupal/dashboards:^2.1' # Allow creation of dashboards for the user. 
+RUN composer require 'drupal/eca:^1.1' # Alternative for rules based triggering of action for D10
