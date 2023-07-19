@@ -75,7 +75,6 @@ RUN composer require 'drupal/entity:^1.4'
 RUN composer require 'drupal/entity_print:^2.13' # To add an print PDF option for webform
 RUN composer require 'drupal/paragraphs:^1.15' # To create custom content 
 RUN composer require 'drupal/layout_paragraphs:^2.0' # To use layout builder with paragraphs
-RUN composer require 'drupal/smtp:^1.2' # To send emails via sendinblue
 RUN composer require 'drupal/group:^3.1' # To enable group feature
 RUN composer require 'drupal/charts:^5.0' # To make charts
 RUN composer require 'drupal/viewsreference:^2.0@beta' # Add views reference field
@@ -103,5 +102,16 @@ RUN composer require 'drupal/config_translation_po:^1.0' # Allow configuration t
 RUN composer require 'drupal/webform_translation_permissions:^2.0' # Allows webform to be translated by users through additional permission without granting them permission to translate configuration.
 RUN composer require 'drupal/dashboards:^2.1' # Allow creation of dashboards for the user. 
 RUN composer require 'drupal/eca:^1.1' # Alternative for rules based triggering of action for D10
+## Following Modules are related to the security and encryption of data. Please enable if required. 
+RUN composer require 'drupal/field_encrypt:^3.1' # Allows Field data to be encrypted. Can be used to encrypt patient UID, email addressses etc. However one critical point to note is that encrypted fields cannot be used in Views. 
+RUN composer require 'drupal/encrypt:^3.1' # Core encrypt module
+RUN composer require 'drupal/sodium:^2.4' # Symmetric encryption using the libsodium PHP library
+RUN composer require 'drupal/key:^1.17' # Allows creation and storage of sensitive Keys
+## Mail system modules for sending emails. 
+RUN composer require 'drupal/smtp:^1.2' # To send emails via sendinblue or other SMTP service. 
+RUN composer require 'drupal/mailsystem:^4.4' # Drupal Mailsystem Module
+RUN composer require 'drupal/phpmailer_smtp:^2.2' # Alternative system to send mails through SMTP. Can use the Key module to store the password as a secure Key instead of a plaintext password as done in SMTP authentication module. 
+
+
 
 RUN chown -R www-data:www-data /opt/drupal/web
