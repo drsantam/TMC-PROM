@@ -113,5 +113,5 @@ RUN composer require 'drupal/mailsystem:^4.4' # Drupal Mailsystem Module
 RUN composer require 'drupal/phpmailer_smtp:^2.2' # Alternative system to send mails through SMTP. Can use the Key module to store the password as a secure Key instead of a plaintext password as done in SMTP authentication module. 
 
 
-
+# Add a permission to the directory to enable writing to the same. 
 RUN chown -R www-data:www-data /opt/drupal/web
