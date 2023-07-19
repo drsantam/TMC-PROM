@@ -103,3 +103,5 @@ RUN composer require 'drupal/config_translation_po:^1.0' # Allow configuration t
 RUN composer require 'drupal/webform_translation_permissions:^2.0' # Allows webform to be translated by users through additional permission without granting them permission to translate configuration.
 RUN composer require 'drupal/dashboards:^2.1' # Allow creation of dashboards for the user. 
 RUN composer require 'drupal/eca:^1.1' # Alternative for rules based triggering of action for D10
+
+RUN chown -R www-data:www-data /opt/drupal/web
