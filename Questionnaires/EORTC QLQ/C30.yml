@@ -314,3 +314,153 @@ q30_card:
     '#scale_size': large
     '#star_size': large
     '#reset': true
+  c30_physical_functioning:
+    '#type': computed_twig
+    '#title': c30_physical_functioning
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q1+data.c30_q2+data.c30_q3+data.c30_q4+data.c30_q5)/5 %}
+      {% set score = (1 -((raw_score-1)/3))*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_role_functioning:
+    '#type': computed_twig
+    '#title': c30_role_functioning
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q6+data.c30_q7)/2 %}
+      {% set score = (1 -((raw_score-1)/3))*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_emotional_functioning:
+    '#type': computed_twig
+    '#title': c30_emotional_functioning
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q21+data.c30_q22+data.c30_q23+data.c30_q24)/4 %}
+      {% set score = (1 -((raw_score-1)/3))*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_cognitive_functioning:
+    '#type': computed_twig
+    '#title': c30_cognitive_functioning
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q20+data.c30_q25)/2 %}
+      {% set score = (1 -((raw_score-1)/3))*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_social_functioning:
+    '#type': computed_twig
+    '#title': c30_social_functioning
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q26+data.c30_q27)/2 %}
+      {% set score = (1 -((raw_score-1)/3))*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_fatigue:
+    '#type': computed_twig
+    '#title': c30_fatigue
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q10+data.c30_q12+data.c30_q18)/3 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_nausea_vomiting:
+    '#type': computed_twig
+    '#title': c30_nausea_vomiting
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q14+data.c30_q15)/2 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_pain:
+    '#type': computed_twig
+    '#title': c30_pain
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q9+data.c30_q19)/2 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_dyspnea:
+    '#type': computed_twig
+    '#title': c30_dyspnea
+    '#display_on': view
+    '#template': |
+      {% set raw_score = data.c30_q8 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_insomnia:
+    '#type': computed_twig
+    '#title': c30_insomnia
+    '#display_on': view
+    '#template': |
+      {% set raw_score = data.c30_q11 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_appetite_loss:
+    '#type': computed_twig
+    '#title': c30_appetite_loss
+    '#display_on': view
+    '#template': |
+      {% set raw_score = data.c30_q13 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_constipation:
+    '#type': computed_twig
+    '#title': c30_constipation
+    '#display_on': view
+    '#template': |
+      {% set raw_score = data.c30_q16 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_diarrhea:
+    '#type': computed_twig
+    '#title': c30_diarrhea
+    '#display_on': view
+    '#template': |
+      {% set raw_score = data.c30_q17 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_financial_difficulties:
+    '#type': computed_twig
+    '#title': c30_financial_difficulties
+    '#display_on': view
+    '#template': |
+      {% set raw_score = data.c30_q28 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}
+    '#whitespace': spaceless
+    '#store': true
+  c30_global_health_status:
+    '#type': computed_twig
+    '#title': c30_global_health_status
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.c30_q29+data.c30_q30)/2 %}
+      {% set score = ((raw_score-1)/6)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
