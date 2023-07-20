@@ -180,6 +180,10 @@ question_19:
 question_20:
   '#type': card
   '#title': 'Question 20'
+  '#states':
+    visible:
+      ':input[name="cx24_q49"]':
+        '!value': '1'
   cx24_q50:
     '#type': radios
     '#title': 'During the past 4 weeks has your vagina felt dry during sexual activity ?'
@@ -192,6 +196,10 @@ question_20:
 question_21:
   '#type': card
   '#title': 'Question 21'
+  '#states':
+    visible:
+      ':input[name="cx24_q49"]':
+        '!value': '1'
   cx24_q51:
     '#type': radios
     '#title': 'During the past 4 weeks has your vagina felt short ?'
@@ -204,6 +212,10 @@ question_21:
 question_22:
   '#type': card
   '#title': 'Question 22'
+  '#states':
+    visible:
+      ':input[name="cx24_q49"]':
+        '!value': '1'
   cx24_q52:
     '#type': radios
     '#title': 'During the past 4 weeks has your vagina felt tight ?'
@@ -216,6 +228,10 @@ question_22:
 question_23:
   '#type': card
   '#title': 'Question 23'
+  '#states':
+    visible:
+      ':input[name="cx24_q49"]':
+        '!value': '1'
   cx24_q53:
     '#type': radios
     '#title': 'During the past 4 weeks have you had pain during sexual intercourse or other sexual activity ?'
@@ -228,6 +244,10 @@ question_23:
 question_24:
   '#type': card
   '#title': 'Question 24'
+  '#states':
+    visible:
+      ':input[name="cx24_q49"]':
+        '!value': '1'
   cx24_q54:
     '#type': radios
     '#title': 'During the past 4 weeks was sexual activity enjoyable for you ?'
