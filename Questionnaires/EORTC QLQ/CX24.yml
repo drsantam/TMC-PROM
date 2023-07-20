@@ -187,7 +187,7 @@ question_20:
     '#options_display': buttons
     '#states':
       visible:
-        ':input[name="sexual_activity"]':
+        ':input[name="cx24_q49"]':
           '!value': '1'
 question_21:
   '#type': card
@@ -199,7 +199,7 @@ question_21:
     '#options_display': buttons
     '#states':
       visible:
-        ':input[name="sexual_activity"]':
+        ':input[name="cx24_q49"]':
           '!value': '1'
 question_22:
   '#type': card
@@ -211,7 +211,7 @@ question_22:
     '#options_display': buttons
     '#states':
       visible:
-        ':input[name="sexual_activity"]':
+        ':input[name="cx24_q49"]':
           '!value': '1'
 question_23:
   '#type': card
@@ -223,8 +223,8 @@ question_23:
     '#options_display': buttons
     '#states':
       visible:
-        ':input[name="sexual_activity"]':
-          '!value': '1'          
+        ':input[name="cx24_q49"]':
+          '!value': '1'
 question_24:
   '#type': card
   '#title': 'Question 24'
@@ -235,5 +235,101 @@ question_24:
     '#options_display': buttons
     '#states':
       visible:
-        ':input[name="sexual_activity"]':
-          '!value': '1'                
+        ':input[name="cx24_q49"]':
+          '!value': '1'
+  cx24_symptom_experience:
+    '#type': computed_twig
+    '#title': cx24_symptom_experience
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.cx24_q31+data.cx24_q32+data.cx24_q33+data.cx24_q34+data.cx24_q35+data.cx24_q36+data.cx24_q37+data.cx24_q39+data.cx24_q41+data.cx24_q42+data.cx24_q43)/11 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  cx24_body_image:
+    '#type': computed_twig
+    '#title': cx24_body_image
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.cx24_q45+data.cx24_q46+data.cx24_q47)/3 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  cx24_sexual_vaginal_functioning:
+    '#type': computed_twig
+    '#title': cx24_sexual_vaginal_functioning
+    '#display_on': view
+    '#template': |
+      {% if data.cx24_q49 > 1 %}
+      {% set raw_score = (data.cx24_q50+data.cx24_q51+data.cx24_q52+data.cx24_q53)/4 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+      {% endif %}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_lymphedema:
+    '#type': computed_twig
+    '#title': cx24_lymphedema
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.cx24_q38) %}
+      {% set score = ((raw_score-1)/6)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  cx24_peripheral_neuropathy:
+    '#type': computed_twig
+    '#title': cx24_peripheral_neuropathy
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.cx24_q40) %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  cx24_menopausal_symptoms:
+    '#type': computed_twig
+    '#title': cx24_menopausal_symptoms
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.cx24_q44) %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  cx24_sexual_worry:
+    '#type': computed_twig
+    '#title': cx24_sexual_worry
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.cx24_q44) %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  cx24_sexual_activity:
+    '#type': computed_twig
+    '#title': cx24_sexual_activity
+    '#display_on': view
+    '#template': |
+      {% if data.cx24_q49 > 1 %}
+      {% set raw_score = (data.cx24_q49) %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+      {% endif %}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_sexual_enjoyment:
+    '#type': computed_twig
+    '#title': cx24_sexual_enjoyment
+    '#display_on': view
+    '#template': |
+      {% if data.cx24_q54 is not empty %}
+      {% set raw_score = (data.cx24_q54) %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }} 
+      {% endif %}
+    '#whitespace': spaceless
+    '#store': true
