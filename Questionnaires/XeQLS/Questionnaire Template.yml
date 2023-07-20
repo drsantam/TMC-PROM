@@ -7,7 +7,7 @@ xeql1_card:
     '#title': 'During the past 7 days my mouth/throat dryness limits the kinds or amounts of food I eat.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons   
+    '#options_display': buttons
 xeql2_card:
   '#type': card
   '#title': xeql2_card
@@ -17,7 +17,7 @@ xeql2_card:
     '#title': 'During the past 7 days my mouth/throat dryness causes discomfort.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons       
+    '#options_display': buttons
 xeql3_card:
   '#type': card
   '#title': xeql3_card
@@ -27,7 +27,7 @@ xeql3_card:
     '#title': 'During the past 7 days my mouth/throat dryness causes a lot of worry or concern.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons        
+    '#options_display': buttons
 xeql4_card:
   '#type': card
   '#title': xeql4_card
@@ -37,7 +37,7 @@ xeql4_card:
     '#title': 'During the past 7 days my mouth/throat dryness keeps me form socializing (going out).'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons      
+    '#options_display': buttons
 xeql5_card:
   '#type': card
   '#title': xeql5_card
@@ -47,7 +47,7 @@ xeql5_card:
     '#title': 'During the past 7 days my mouth/throat dryness makes me uncomfortable when eating in front of other people.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons     
+    '#options_display': buttons
 xeql6_card:
   '#type': card
   '#title': xeql6_card
@@ -57,7 +57,7 @@ xeql6_card:
     '#title': 'During the past 7 days my mouth/throat dryness makes me uncomfortable speaking in front of other people.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons        
+    '#options_display': buttons
 xeql7_card:
   '#type': card
   '#title': xeql7_card
@@ -67,7 +67,7 @@ xeql7_card:
     '#title': 'During the past 7 days my mouth/throat dryness makes me nervous.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons   
+    '#options_display': buttons
 xeql8_card:
   '#type': card
   '#title': xeql8_card
@@ -77,7 +77,7 @@ xeql8_card:
     '#title': 'During the past 7 days my mouth/throat dryness makes me concerned about the looks of my teeth and mouth.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons     
+    '#options_display': buttons
 xeql9_card:
   '#type': card
   '#title': xeql9_card
@@ -87,7 +87,7 @@ xeql9_card:
     '#title': 'During the past 7 days my mouth/throat dryness keeps me from enjoying life.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons        
+    '#options_display': buttons
 xeql10_card:
   '#type': card
   '#title': xeql10_card
@@ -97,7 +97,7 @@ xeql10_card:
     '#title': 'During the past 7 days my mouth/throat dryness interferes with my daily activities.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons        
+    '#options_display': buttons
 xeql11_card:
   '#type': card
   '#title': xeql11_card
@@ -107,7 +107,7 @@ xeql11_card:
     '#title': 'During the past 7 days my mouth/throat dryness interferes with my intimate relationships.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons      
+    '#options_display': buttons
 xeql12_card:
   '#type': card
   '#title': xeql12_card
@@ -117,7 +117,7 @@ xeql12_card:
     '#title': 'During the past 7 days my mouth/throat dryness has a bad effect on tasting food.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons          
+    '#options_display': buttons
 xeql13_card:
   '#type': card
   '#title': xeql13_card
@@ -127,7 +127,7 @@ xeql13_card:
     '#title': 'During the past 7 days my mouth/throat dryness reduces my general happiness with life.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons      
+    '#options_display': buttons
 xeql14_card:
   '#type': card
   '#title': xeql14_card
@@ -137,7 +137,7 @@ xeql14_card:
     '#title': 'During the past 7 days mouth/throat dryness affects all aspects of my life.'
     '#description_display': before
     '#options': xeqols_options
-    '#options_display': buttons      
+    '#options_display': buttons
 xeql15_card:
   '#type': card
   '#title': xeql15_card
@@ -147,4 +147,49 @@ xeql15_card:
     '#title': 'If you were to spend the rest of your life with your mouth/throat dryness just the way it is now, how would you feel about this?.'
     '#description_display': before
     '#options': delight_scale
-    '#options_display': buttons      
+    '#options_display': buttons
+  xeql_physical_function:
+    '#type': computed_twig
+    '#title': xeql_physical_function
+    '#display_on': view
+    '#template': |
+      {% set score = (data.xeql1+data.xeql6+data.xeql10+data.xeql12)/4  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  xeql_pain_discomfort:
+    '#type': computed_twig
+    '#title': xeql_pain_discomfort
+    '#display_on': view
+    '#template': |
+      {% set score = (data.xeql2+data.xeql3+data.xeql7+data.xeql9)/4  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  xeql_personal_functioning:
+    '#type': computed_twig
+    '#title': xeql_personal_functioning
+    '#display_on': view
+    '#template': |
+      {% set score = (data.xeql8+data.xeql13+data.xeql14+data.xeql15)/4  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  xeql_social_functioning:
+    '#type': computed_twig
+    '#title': xeql_social_functioning
+    '#display_on': view
+    '#template': |
+      {% set score = (data.xeql4+data.xeql5+data.xeql11)/3  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
+  xeql_total_score:
+    '#type': computed_twig
+    '#title': xeql_social_functioning
+    '#display_on': view
+    '#template': |
+      {% set score = (data.xeql1+data.xeql2+data.xeql3+data.xeql4+data.xeql5+data.xeql6+data.xeql7+data.xeql8+data.xeql9+data.xeql10+data.xeql11+data.xeql12+data.xeql13+data.xeql4+data.xeql5)/15  %}
+      {{ (score|round(1,'ceil')) }} 
+    '#whitespace': spaceless
+    '#store': true
