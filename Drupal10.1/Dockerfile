@@ -111,7 +111,7 @@ RUN composer require 'drupal/key:^1.17' # Allows creation and storage of sensiti
 RUN composer require 'drupal/smtp:^1.2' # To send emails via sendinblue or other SMTP service. 
 RUN composer require 'drupal/mailsystem:^4.4' # Drupal Mailsystem Module
 RUN composer require 'drupal/phpmailer_smtp:^2.2' # Alternative system to send mails through SMTP. Can use the Key module to store the password as a secure Key instead of a plaintext password as done in SMTP authentication module. 
-
+RUN composer require 'drupal/node_view_permissions:^1.6' # Ensure that nodes view permissions are restricted. 
 
 # Add a permission to the directory to enable writing to the same. 
 RUN chown -R www-data:www-data /opt/drupal/web
