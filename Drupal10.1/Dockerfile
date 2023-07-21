@@ -56,6 +56,7 @@ RUN { \
 		echo 'memory_limit = 512M'; \
 		echo 'upload_max_filesize = 50M'; \
 		echo 'post_max_size = 50M'; \
+		echo 'max_execution_time = 360'; \  
 	} >  /usr/local/etc/php/conf.d/my.ini
 
 #RUN mkdir -p /var/lib/php/session
