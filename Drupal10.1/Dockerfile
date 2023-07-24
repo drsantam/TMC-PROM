@@ -114,5 +114,6 @@ RUN composer require 'drupal/mailsystem:^4.4' # Drupal Mailsystem Module
 RUN composer require 'drupal/phpmailer_smtp:^2.2' # Alternative system to send mails through SMTP. Can use the Key module to store the password as a secure Key instead of a plaintext password as done in SMTP authentication module. 
 RUN composer require 'drupal/node_view_permissions:^1.6' # Ensure that nodes view permissions are restricted. 
 RUN composer require 'drupal/redirect:^1.8' # Ensure that aliased paths are properly redirected.
+RUN composer require 'drupal/entity_access_by_reference_field:^1.0' # Alternative permission control module. 
 # Add a permission to the directory to enable writing to the same. 
 RUN chown -R www-data:www-data /opt/drupal/web
