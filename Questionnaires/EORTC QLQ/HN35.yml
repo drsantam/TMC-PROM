@@ -17,7 +17,7 @@ q32_card:
     '#title': 'During the past week have you had pain in your jaw ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons    
+    '#options_display': buttons
 q33_card:
   '#type': card
   '#title': q33_card
@@ -27,7 +27,7 @@ q33_card:
     '#title': 'During the past week have you had soreness in your mouth ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons        
+    '#options_display': buttons
 q34_card:
   '#type': card
   '#title': q34_card
@@ -37,7 +37,7 @@ q34_card:
     '#title': 'During the past week have you had painful throat ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q35_card:
   '#type': card
   '#title': q35_card
@@ -47,7 +47,7 @@ q35_card:
     '#title': 'During the past week have you had problems swallowing liquids ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons    
+    '#options_display': buttons
 q36_card:
   '#type': card
   '#title': q36_card
@@ -57,7 +57,7 @@ q36_card:
     '#title': 'During the past week have you had problems swallowing pureed food ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons 
+    '#options_display': buttons
 q37_card:
   '#type': card
   '#title': q37_card
@@ -67,7 +67,7 @@ q37_card:
     '#title': 'During the past week have you had problems swallowing solid food ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q38_card:
   '#type': card
   '#title': q38_card
@@ -77,7 +77,7 @@ q38_card:
     '#title': 'During the past week have you choked when swallowing ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q39_card:
   '#type': card
   '#title': q39_card
@@ -87,7 +87,7 @@ q39_card:
     '#title': 'During the past week have you had problems with your teeth ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons         
+    '#options_display': buttons
 q40_card:
   '#type': card
   '#title': q40_card
@@ -97,7 +97,7 @@ q40_card:
     '#title': 'During the past week have you problems opening your mouth wide ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q41_card:
   '#type': card
   '#title': q41_card
@@ -107,7 +107,7 @@ q41_card:
     '#title': 'During the past week did have you had a dry mouth ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q42_card:
   '#type': card
   '#title': q42_card
@@ -117,7 +117,7 @@ q42_card:
     '#title': 'During the past week have you had sticky saliva ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons    
+    '#options_display': buttons
 q43_card:
   '#type': card
   '#title': q43_card
@@ -127,7 +127,7 @@ q43_card:
     '#title': 'During the past week have you had problems with your sense of smell ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q44_card:
   '#type': card
   '#title': q44_card
@@ -137,7 +137,7 @@ q44_card:
     '#title': 'During the past week have you had problems with your sense of taste ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons       
+    '#options_display': buttons
 q45_card:
   '#type': card
   '#title': q45_card
@@ -147,7 +147,7 @@ q45_card:
     '#title': 'During the past week have you coughed ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons 
+    '#options_display': buttons
 q46_card:
   '#type': card
   '#title': q46_card
@@ -157,7 +157,7 @@ q46_card:
     '#title': 'During the past week have you been hoarse ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons   
+    '#options_display': buttons
 q47_card:
   '#type': card
   '#title': q47_card
@@ -167,7 +167,7 @@ q47_card:
     '#title': 'During the week did you have you felt ill ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons   
+    '#options_display': buttons
 q48_card:
   '#type': card
   '#title': q48_card
@@ -177,7 +177,7 @@ q48_card:
     '#title': 'During the past week has your appearance bothered you ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q49_card:
   '#type': card
   '#title': q49_card
@@ -187,7 +187,7 @@ q49_card:
     '#title': 'During the past week have you had trouble eating ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q50_card:
   '#type': card
   '#title': q50_card
@@ -197,7 +197,7 @@ q50_card:
     '#title': 'During the past week have you had trouble eating in front of your family ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons    
+    '#options_display': buttons
 q51_card:
   '#type': card
   '#title': q51_card
@@ -207,7 +207,7 @@ q51_card:
     '#title': 'During the past week have you had trouble eating in front of other people ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q52_card:
   '#type': card
   '#title': q52_card
@@ -217,7 +217,7 @@ q52_card:
     '#title': 'During the past week have you had trouble enjoying your meals ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons    
+    '#options_display': buttons
 q53_card:
   '#type': card
   '#title': q53_card
@@ -227,7 +227,7 @@ q53_card:
     '#title': 'During the past week have you had trouble talking to other people ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q54_card:
   '#type': card
   '#title': q54_card
@@ -237,7 +237,7 @@ q54_card:
     '#title': 'During the past week have you had trouble talking on the telephone ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons          
+    '#options_display': buttons
 q55_card:
   '#type': card
   '#title': q55_card
@@ -247,7 +247,7 @@ q55_card:
     '#title': 'During the past week have you had trouble having social contact with your family ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q56_card:
   '#type': card
   '#title': q56_card
@@ -257,7 +257,7 @@ q56_card:
     '#title': 'During the past week have you had trouble having social contact with friends ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q57_card:
   '#type': card
   '#title': q57_card
@@ -267,7 +267,7 @@ q57_card:
     '#title': 'During the past week have you had trouble going out in public ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q58_card:
   '#type': card
   '#title': q58_card
@@ -277,7 +277,7 @@ q58_card:
     '#title': 'During the past week have you had trouble having physical contact with family or friends ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons        
+    '#options_display': buttons
 q59_card:
   '#type': card
   '#title': q59_card
@@ -287,7 +287,7 @@ q59_card:
     '#title': 'During the past week have you felt less interest in sex ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons     
+    '#options_display': buttons
 q60_card:
   '#type': card
   '#title': q60_card
@@ -297,7 +297,7 @@ q60_card:
     '#title': 'During the past week have you felt less sexual enjoyment ?'
     '#description_display': before
     '#options': eortc_options
-    '#options_display': buttons      
+    '#options_display': buttons
 q61_card:
   '#type': card
   '#title': q61_card
@@ -307,7 +307,7 @@ q61_card:
     '#title': 'During the past week have you used pain-killers ?'
     '#description_display': before
     '#options': yes_no
-    '#options_display': buttons       
+    '#options_display': buttons
 q62_card:
   '#type': card
   '#title': q62_card
@@ -317,7 +317,7 @@ q62_card:
     '#title': 'During the past week have you taken any nutritional supplements (excluding vitamins) ?'
     '#description_display': before
     '#options': yes_no
-    '#options_display': buttons      
+    '#options_display': buttons
 q63_card:
   '#type': card
   '#title': q63_card
@@ -327,7 +327,7 @@ q63_card:
     '#title': 'During the past week have you used a feeding tube ?'
     '#description_display': before
     '#options': yes_no
-    '#options_display': buttons      
+    '#options_display': buttons
 q64_card:
   '#type': card
   '#title': q64_card
@@ -337,7 +337,7 @@ q64_card:
     '#title': 'During the past week have you lost weight ?'
     '#description_display': before
     '#options': yes_no
-    '#options_display': buttons         
+    '#options_display': buttons
 q65_card:
   '#type': card
   '#title': q65_card
@@ -347,4 +347,173 @@ q65_card:
     '#title': 'During the past week have you gained weight ?'
     '#description_display': before
     '#options': yes_no
-    '#options_display': buttons         
+    '#options_display': buttons
+  hn35_pain:
+    '#type': computed_twig
+    '#title': hn35_pain
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q31+data.hn35_q32+data.hn35_q33+data.hn35_q34)/4 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_swallowing:
+    '#type': computed_twig
+    '#title': hn35_swallowing
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q35+data.hn35_q36+data.hn35_q37+data.hn35_q38)/4 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_senses_problem:
+    '#type': computed_twig
+    '#title': hn35_senses_problem
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q43+data.hn35_q44)/2 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_speech_problem:
+    '#type': computed_twig
+    '#title': hn35_speech_problem
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q46+data.hn35_q53+data.hn35_q54)/3 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_social_eating_trouble:
+    '#type': computed_twig
+    '#title': hn35_social_eating_problem
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q49+data.hn35_q50+data.hn35_q51+data.hn35_q52)/4 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_social_contact_trouble:
+    '#type': computed_twig
+    '#title': hn35_social_contact_problem
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q48+data.hn35_q55+data.hn35_q56+data.hn35_q57+data.hn35_q58)/5 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_less_sexuality:
+    '#type': computed_twig
+    '#title': hn35_less_sexuality
+    '#display_on': view
+    '#template': |
+      {% set raw_score = (data.hn35_q59+data.hn35_q60)/2 %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_teeth:
+    '#type': computed_twig
+    '#title': hn35_teeth
+    '#display_on': view
+    '#template': |
+      {% set score = ((data.hn35_q39-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_opening_mouth:
+    '#type': computed_twig
+    '#title': hn35_opening_mouth
+    '#display_on': view
+    '#template': |
+      {% set score = ((data.hn35_q40-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_dry_mouth:
+    '#type': computed_twig
+    '#title': hn35_dry_mouth
+    '#display_on': view
+    '#template': |
+      {% set score = ((data.hn35_q41-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_sticky_saliva:
+    '#type': computed_twig
+    '#title': hn35_sticky_saliva
+    '#display_on': view
+    '#template': |
+      {% set score = ((data.hn35_q42-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_coughing:
+    '#type': computed_twig
+    '#title': hn35_coughing
+    '#display_on': view
+    '#template': |
+      {% set score = ((data.hn35_q45-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_felt_ill:
+    '#type': computed_twig
+    '#title': hn35_felt_ill
+    '#display_on': view
+    '#template': |
+      {% set score = ((data.hn35_q47-1)/3)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_pain_killers:
+    '#type': computed_twig
+    '#title': hn35_pain_killers
+    '#display_on': view
+    '#template': |
+      {% set score = (data.hn35_q61-1)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_nutritional_supplements:
+    '#type': computed_twig
+    '#title': hn35_nutritional_supplements
+    '#display_on': view
+    '#template': |
+      {% set score = (data.hn35_q62-1)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_feeding_tube:
+    '#type': computed_twig
+    '#title': hn35_feeding_tube
+    '#display_on': view
+    '#template': |
+      {% set score = (data.hn35_q63-1)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_weight_gain:
+    '#type': computed_twig
+    '#title': hn35_weight_gain
+    '#display_on': view
+    '#template': |
+      {% set score = (data.hn35_q64-1)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
+  hn35_weight_loss:
+    '#type': computed_twig
+    '#title': hn35_weight_loss
+    '#display_on': view
+    '#template': |
+      {% set score = (data.hn35_q65-1)*100  %}
+      {{ (score|round(1,'ceil')) }}  
+    '#whitespace': spaceless
+    '#store': true
