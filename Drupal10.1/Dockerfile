@@ -102,7 +102,11 @@ RUN composer require 'drupal/tmgmt:^1.15' # Translation management tool allowing
 RUN composer require 'drupal/config_translation_po:^1.0' # Allow configuration translattions to be downloaded and translated
 RUN composer require 'drupal/webform_translation_permissions:^2.0' # Allows webform to be translated by users through additional permission without granting them permission to translate configuration.
 RUN composer require 'drupal/dashboards:^2.1' # Allow creation of dashboards for the user. 
+## Event Condition Action  module and submodules to trigger rules based workflow actions
 RUN composer require 'drupal/eca:^1.1' # Alternative for rules based triggering of action for D10
+RUN composer require 'drupal/bpmn_io:^1.1' # Modeller for ECA integrated into D10
+RUN composer require 'drupal/eca_webform:^1.0' # ECA plugin for webform module
+
 ## Following Modules are related to the security and encryption of data. Please enable if required. 
 RUN composer require 'drupal/field_encrypt:^3.1' # Allows Field data to be encrypted. Can be used to encrypt patient UID, email addressses etc. However one critical point to note is that encrypted fields cannot be used in Views. 
 RUN composer require 'drupal/encrypt:^3.1' # Core encrypt module
