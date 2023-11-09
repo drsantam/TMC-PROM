@@ -1,0 +1,54 @@
+# Use the official Drupal image which is based on Debian Slim and uses PHP 8.2
+# Drupal version 10.1 is used. Version changes can be specified.
+FROM drupal:10.1
+
+# Set the shell to bash
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+# Install system packages in a single RUN layer and clean up afterwards
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    curl \
+    build-essential \
+    wget \
+    nano \
+    git \
+    unzip && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install PHP extensions
+RUN pecl install apcu uploadprogress && \
+    docker-php-ext-enable apcu uploadprogress
+
+# Install Composer globally
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Install Drupal Console globally
+RUN curl https://drupalconsole.com/installer -L -o drupal.phar && \
+    mv drupal.phar /usr/local/bin/drupal && \
+    chmod +x /usr/local/bin/drupal
+
+# Install Drush globally
+RUN composer global require drush/drush && \
+    ln -s /root/.composer/vendor/bin/drush /usr/local/bin/drush
+
+# Set recommended PHP.ini settings
+COPY php-config.ini /usr/local/etc/php/conf.d/
+
+# Install contributed modules with a single composer require statement
+RUN composer require \
+    drupal/auto_entitylabel:^3.0 \
+    drupal/token:^1.12 \
+    drupal/profile:^1.7 \
+    # ... [add all your modules here] ...
+    drupal/dashboards:^2.1
+
+# Correct permissions
+# Caution: Limit this to specific directories if possible for security reasons
+RUN chown -R www-data:www-data /opt/drupal/web
+
+# Expose the port the app runs on
+EXPOSE 80
+
+# Start the main process
+CMD ["apache2-foreground"]
