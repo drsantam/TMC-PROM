@@ -14,7 +14,6 @@ question_1:
     '#title': 'During the past 1 week did you have cramps in your abdomen ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_2:
   '#type': card
   '#title': 'Question 2'
@@ -23,7 +22,6 @@ question_2:
     '#title': 'During the past 1 week did you have difficulty controlling your bowels ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_3:
   '#type': card
   '#title': 'Question 3'
@@ -32,7 +30,6 @@ question_3:
     '#title': 'During the past 1 week have you had blood in your stools (motions) ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_4:
   '#type': card
   '#title': 'Question 4'
@@ -41,7 +38,6 @@ question_4:
     '#title': 'During the past 1 week did you pass water / urine frequently ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_5:
   '#type': card
   '#title': 'Question 5'
@@ -50,7 +46,6 @@ question_5:
     '#title': 'During the past 1 week have you had a pain or burning feeling when passing water / urinating ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_6:
   '#type': card
   '#title': 'Question 6'
@@ -59,7 +54,6 @@ question_6:
     '#title': 'During the past 1 week have you had leaking of urine ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_7:
   '#type': card
   '#title': 'Question 7'
@@ -68,7 +62,6 @@ question_7:
     '#title': 'During the past 1 week have you had difficulty emptying your bladder ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_8:
   '#type': card
   '#title': 'Question 8'
@@ -77,7 +70,6 @@ question_8:
     '#title': 'During the past 1 week have you had swelling in one or both legs ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_9:
   '#type': card
   '#title': 'Question 9'
@@ -86,7 +78,6 @@ question_9:
     '#title': 'During the past 1 week have you had pain in your lower back ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_10:
   '#type': card
   '#title': 'Question 10'
@@ -95,7 +86,6 @@ question_10:
     '#title': 'During the past 1 week have you had tingling or numbness in your hands or feet ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_11:
   '#type': card
   '#title': 'Question 11'
@@ -104,7 +94,6 @@ question_11:
     '#title': 'During the past 1 week have you had irritation or soreness in your vagina or vulva ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_12:
   '#type': card
   '#title': 'Question 12'
@@ -113,7 +102,6 @@ question_12:
     '#title': 'During the past 1 week have you had discharge from your vagina ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_13:
   '#type': card
   '#title': 'Question 13'
@@ -122,7 +110,6 @@ question_13:
     '#title': 'During the past 1 week have you had abnormal bleeding from your vagina ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_14:
   '#type': card
   '#title': 'Question 14'
@@ -131,7 +118,6 @@ question_14:
     '#title': 'During the past 1 week have you had hot flushes and/or sweats ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_15:
   '#type': card
   '#title': 'Question 15'
@@ -140,7 +126,6 @@ question_15:
     '#title': 'During the past 1 week have you felt physically less attractive as a result of your disease or treatment ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_16:
   '#type': card
   '#title': 'Question 16'
@@ -149,7 +134,6 @@ question_16:
     '#title': 'During the past 1 week have you felt less feminine as a result of your disease or treatment ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_17:
   '#type': card
   '#title': 'Question 17'
@@ -158,7 +142,6 @@ question_17:
     '#title': 'During the past 1 week have you felt dissatisfied with your body ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_18:
   '#type': card
   '#title': 'Question 18'
@@ -167,7 +150,6 @@ question_18:
     '#title': 'During the past 4 weeks have you worried that sex would be painful ?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_19:
   '#type': card
   '#title': 'Question 19'
@@ -176,7 +158,6 @@ question_19:
     '#title': 'During the past 4 weeks have you been sexually active?'
     '#options': eortc_options
     '#options_display': buttons
-    '#required': true
 question_20:
   '#type': card
   '#title': 'Question 20'
@@ -261,95 +242,299 @@ question_24:
     '#type': computed_twig
     '#title': cx24_symptom_experience
     '#display_on': view
-    '#template': |
-      {% set raw_score = (data.cx24_q31+data.cx24_q32+data.cx24_q33+data.cx24_q34+data.cx24_q35+data.cx24_q36+data.cx24_q37+data.cx24_q39+data.cx24_q41+data.cx24_q42+data.cx24_q43)/11 %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }}  
+    '#template': |-
+      {% set scores = [ data.cx24_q31, data.cx24_q32, data.cx24_q33, data.cx24_q34, data.cx24_q35, data.cx24_q36, data.cx24_q37, data.cx24_q39, data.cx24_q41, data.cx24_q42, data.cx24_q43 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_abdominal_cramps:
+    '#type': computed_twig
+    '#title': cx24_abdominal_cramps
+    '#display_on': view
+    '#template': |-
+      {% set scores = [ data.cx24_q31 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_back_pain:
+    '#type': computed_twig
+    '#title': cx24_back_pain
+    '#display_on': view
+    '#template': |-
+      {% set scores = [ data.cx24_q39 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_fecal_incontinence:
+    '#type': computed_twig
+    '#title': cx24_fecal_incontinence
+    '#display_on': view
+    '#template': |-
+      {% set scores = [ data.cx24_q32 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_hematochezia:
+    '#type': computed_twig
+    '#title': cx24_hematochezia
+    '#display_on': view
+    '#template': |-
+      {% set scores = [ data.cx24_q33 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_urinary_issues:
+    '#type': computed_twig
+    '#title': cx24_urinary_issues
+    '#display_on': view
+    '#template': |-
+      {% set scores = [ data.cx24_q34, data.cx24_q35, data.cx24_q36, data.cx24_q37 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
+    '#whitespace': spaceless
+    '#store': true
+  cx24_vulvovaginal_symptoms:
+    '#type': computed_twig
+    '#title': cx24_vulvovaginal_symptoms
+    '#display_on': view
+    '#template': |-
+      {% set scores = [ data.cx24_q41, data.cx24_q42, data.cx24_q43 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_body_image:
     '#type': computed_twig
     '#title': cx24_body_image
     '#display_on': view
-    '#template': |
-      {% set raw_score = (data.cx24_q45+data.cx24_q46+data.cx24_q47)/3 %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }}  
+    '#template': |-
+      {% set scores = [ data.cx24_q45, data.cx24_q46, data.cx24_q47 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_sexual_vaginal_functioning:
     '#type': computed_twig
     '#title': cx24_sexual_vaginal_functioning
     '#display_on': view
-    '#template': |
-      {% if data.cx24_q49 > 1 %}
-      {% set raw_score = (data.cx24_q50+data.cx24_q51+data.cx24_q52+data.cx24_q53)/4 %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q50, data.cx24_q51, data.cx24_q52, data.cx24_q53 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
       {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_lymphedema:
     '#type': computed_twig
     '#title': cx24_lymphedema
     '#display_on': view
-    '#template': |
-      {% set raw_score = (data.cx24_q38) %}
-      {% set score = ((raw_score-1)/6)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q38 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_peripheral_neuropathy:
     '#type': computed_twig
     '#title': cx24_peripheral_neuropathy
     '#display_on': view
-    '#template': |
-      {% set raw_score = (data.cx24_q40) %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q40 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_menopausal_symptoms:
     '#type': computed_twig
     '#title': cx24_menopausal_symptoms
     '#display_on': view
-    '#template': |
-      {% set raw_score = (data.cx24_q44) %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q44 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_sexual_worry:
     '#type': computed_twig
     '#title': cx24_sexual_worry
     '#display_on': view
-    '#template': |
-      {% set raw_score = (data.cx24_q44) %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q44 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
+      {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_sexual_activity:
     '#type': computed_twig
     '#title': cx24_sexual_activity
     '#display_on': view
-    '#template': |
-      {% if data.cx24_q49 > 1 %}
-      {% set raw_score = (data.cx24_q49) %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q49 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
       {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
   cx24_sexual_enjoyment:
     '#type': computed_twig
     '#title': cx24_sexual_enjoyment
     '#display_on': view
-    '#template': |
-      {% if data.cx24_q54 is not empty %}
-      {% set raw_score = (data.cx24_q54) %}
-      {% set score = ((raw_score-1)/3)*100  %}
-      {{ (score|round(1,'ceil')) }} 
+    '#template': |-
+      {% set scores = [ data.cx24_q54 ] %}
+      {% set item_range = 3 %}
+      {% set scores = scores | filter(v => v is not empty) %}
+      {% set answered = scores|length %}
+      {% if answered > 0 %}
+      {% set raw_score = scores|reduce((carry,v) => carry+v) %}
+      {% set raw_score = raw_score/answered  %}
+      {% set score = ((raw_score-1)/item_range)*100  %}
+      {{score|number_format(2, '.', ',')}}
+      {% else %}
+      {% set score = '' %}
       {% endif %}
+      {{ score }}
     '#whitespace': spaceless
     '#store': true
