@@ -1,0 +1,891 @@
+
+q31_card:
+  "#type": card
+  "#title": q31_card
+  "#title_display": invisible
+  hn43_q31:
+    "#type": radios
+    "#title": During the past week have you had pain in your mouth ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q32_card:
+  "#type": card
+  "#title": q32_card
+  "#title_display": invisible
+  hn43_q32:
+    "#type": radios
+    "#title": During the past week have you had pain in your jaw ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q33_card:
+  "#type": card
+  "#title": q33_card
+  "#title_display": invisible
+  hn43_q33:
+    "#type": radios
+    "#title": During the past week have you had soreness in your mouth ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q34_card:
+  "#type": card
+  "#title": q34_card
+  "#title_display": invisible
+  hn43_q34:
+    "#type": radios
+    "#title": During the past week have you had pain in your throat ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q35_card:
+  "#type": card
+  "#title": q35_card
+  "#title_display": invisible
+  hn43_q35:
+    "#type": radios
+    "#title": During the past week have you had problems swallowing liquids ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q36_card:
+  "#type": card
+  "#title": q36_card
+  "#title_display": invisible
+  hn43_q36:
+    "#type": radios
+    "#title": During the past week have you had problems swallowing pureed food ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q37_card:
+  "#type": card
+  "#title": q37_card
+  "#title_display": invisible
+  hn43_q37:
+    "#type": radios
+    "#title": During the past week have you had problems swallowing solid food ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q38_card:
+  "#type": card
+  "#title": q38_card
+  "#title_display": invisible
+  hn43_q38:
+    "#type": radios
+    "#title": During the past week have you choked when swallowing ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q39_card:
+  "#type": card
+  "#title": q39_card
+  "#title_display": invisible
+  hn43_q39:
+    "#type": radios
+    "#title": During the past week have you had problems with your teeth ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q40_card:
+  "#type": card
+  "#title": q40_card
+  "#title_display": invisible
+  hn43_q40:
+    "#type": radios
+    "#title": During the past week have you problems because of loosing some teeth ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q41_card:
+  "#type": card
+  "#title": q41_card
+  "#title_display": invisible
+  hn43_q41:
+    "#type": radios
+    "#title": During the past week have you problems opening your mouth wide ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q42_card:
+  "#type": card
+  "#title": q42_card
+  "#title_display": invisible
+  hn43_q42:
+    "#type": radios
+    "#title": During the past week did have you had a dry mouth ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q43_card:
+  "#type": card
+  "#title": q43_card
+  "#title_display": invisible
+  hn43_q43:
+    "#type": radios
+    "#title": During the past week have you had sticky saliva ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q44_card:
+  "#type": card
+  "#title": q44_card
+  "#title_display": invisible
+  hn43_q44:
+    "#type": radios
+    "#title": During the past week have you had problems with your sense of smell ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q45_card:
+  "#type": card
+  "#title": q45_card
+  "#title_display": invisible
+  hn43_q45:
+    "#type": radios
+    "#title": During the past week have you had problems with your sense of taste ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q46_card:
+  "#type": card
+  "#title": q46_card
+  "#title_display": invisible
+  hn43_q46:
+    "#type": radios
+    "#title": During the past week have had problems with coughing ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q47_card:
+  "#type": card
+  "#title": q47_card
+  "#title_display": invisible
+  hn43_q47:
+    "#type": radios
+    "#title": During the past week have had problems with hoarseness ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q48_card:
+  "#type": card
+  "#title": q48_card
+  "#title_display": invisible
+  hn43_q48:
+    "#type": radios
+    "#title": During the past week have had problems with your appearance ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q49_card:
+  "#type": card
+  "#title": q49_card
+  "#title_display": invisible
+  hn43_q49:
+    "#type": radios
+    "#title": During the past week have you felt less physically attractive as a
+      result of your disease or treatment ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q50_card:
+  "#type": card
+  "#title": q50_card
+  "#title_display": invisible
+  hn43_q50:
+    "#type": radios
+    "#title": During the week did you have you felt dissatisfied with your body ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q51_card:
+  "#type": card
+  "#title": q51_card
+  "#title_display": invisible
+  hn43_q51:
+    "#type": radios
+    "#title": During the past week have you had problems eating ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q52_card:
+  "#type": card
+  "#title": q52_card
+  "#title_display": invisible
+  hn43_q52:
+    "#type": radios
+    "#title": During the past week have you had problems eating in front of your family ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q53_card:
+  "#type": card
+  "#title": q53_card
+  "#title_display": invisible
+  hn43_q53:
+    "#type": radios
+    "#title": During the past week have you had problems eating in front of other
+      people ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q54_card:
+  "#type": card
+  "#title": q54_card
+  "#title_display": invisible
+  hn43_q54:
+    "#type": radios
+    "#title": During the past week have you had problems enjoying your meal ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q55_card:
+  "#type": card
+  "#title": q55_card
+  "#title_display": invisible
+  hn43_q55:
+    "#type": radios
+    "#title": During the past week have you had problems talking to other people ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q56_card:
+  "#type": card
+  "#title": q56_card
+  "#title_display": invisible
+  hn43_q56:
+    "#type": radios
+    "#title": During the past week have you had problems talking on the telephone ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q57_card:
+  "#type": card
+  "#title": q57_card
+  "#title_display": invisible
+  hn43_q57:
+    "#type": radios
+    "#title": During the past week have you had problems talking on a noisy environment ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q58_card:
+  "#type": card
+  "#title": q58_card
+  "#title_display": invisible
+  hn43_q58:
+    "#type": radios
+    "#title": During the past week have you had problems speaking clearly ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q59_card:
+  "#type": card
+  "#title": q59_card
+  "#title_display": invisible
+  hn43_q59:
+    "#type": radios
+    "#title": During the past week have you had problems going out in public ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q60_card:
+  "#type": card
+  "#title": q60_card
+  "#title_display": invisible
+  hn43_q60:
+    "#type": radios
+    "#title": During the past week have you felt less interest in sex ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q61_card:
+  "#type": card
+  "#title": q61_card
+  "#title_display": invisible
+  hn43_q61:
+    "#type": radios
+    "#title": During the past week have you felt less sexual enjoyment ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q62_card:
+  "#type": card
+  "#title": q629_card
+  "#title_display": invisible
+  hn43_q62:
+    "#type": radios
+    "#title": During the past week have you had problems raising arms or moving it
+      sideways ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q63_card:
+  "#type": card
+  "#title": q63_card
+  "#title_display": invisible
+  hn43_q63:
+    "#type": radios
+    "#title": During the past week have you had pain in your shoulder ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q64_card:
+  "#type": card
+  "#title": q64_card
+  "#title_display": invisible
+  hn43_q64:
+    "#type": radios
+    "#title": During the past week have you had swelling in your neck ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q65_card:
+  "#type": card
+  "#title": q65_card
+  "#title_display": invisible
+  hn43_q65:
+    "#type": radios
+    "#title": During the past week have you had skin problems (e.g. itchy , dry) ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q66_card:
+  "#type": card
+  "#title": q66_card
+  "#title_display": invisible
+  hn43_q66:
+    "#type": radios
+    "#title": During the past week have you had a rash ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q67_card:
+  "#type": card
+  "#title": q67_card
+  "#title_display": invisible
+  hn43_q67:
+    "#type": radios
+    "#title": During the past week has your skin changed colour ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q68_card:
+  "#type": card
+  "#title": q68_card
+  "#title_display": invisible
+  hn43_q68:
+    "#type": radios
+    "#title": During the past week have you worried that your weight is too low ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q69_card:
+  "#type": card
+  "#title": q69_card
+  "#title_display": invisible
+  hn43_q69:
+    "#type": radios
+    "#title": During the past week have you worried about the results of
+      examinations and tests ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q70_card:
+  "#type": card
+  "#title": q70_card
+  "#title_display": invisible
+  hn43_q70:
+    "#type": radios
+    "#title": During the past week have you worried about your health in the future ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q71_card:
+  "#type": card
+  "#title": q71_card
+  "#title_display": invisible
+  hn43_q71:
+    "#type": radios
+    "#title": During the past week have you had problems with wounds healing ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q72_card:
+  "#type": card
+  "#title": q72_card
+  "#title_display": invisible
+  hn43_q72:
+    "#type": radios
+    "#title": During the past week have you had tingling or numbness in your hands
+      or feet ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+q73_card:
+  "#type": card
+  "#title": q73_card
+  "#title_display": invisible
+  hn43_q73:
+    "#type": radios
+    "#title": During the past week have you had problems chewing ?
+    "#description_display": before
+    "#options": eortc_options
+    "#options_display": buttons
+  hn43_pain:
+    "#type": computed_twig
+    "#title": hn43_pain
+    "#display_on": view
+    "#template": >-
+      {% set scores =
+      [data.hn43_q31,data.hn43_q32,data.hn43_q33,data.hn43_q34] %} 
+
+      {% set full_scores = [] %} 
+
+      {% for v in scores|filter(v => v is not empty) -%} 
+
+      {% set full_scores = full_scores|merge([v]) %} 
+
+      {% endfor %}
+
+      {% if full_scores|length > 0 %} 
+
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+
+      {% set raw_score = raw_score/(full_scores|length)  %}
+
+      {% set score = ((raw_score-1)/3)*100  %}
+
+      {{score}}  
+
+      {% else %} 
+
+      {% set score = '' %} 
+
+      {{ score }} 
+
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_swallowing:
+    "#type": computed_twig
+    "#title": hn43_swallowing
+    "#display_on": view
+    "#template": >-
+      {% set scores = [data.hn43_q35, data.hn43_q36, data.hn43_q37,
+      data.hn43_q38] %} 
+
+      {% set full_scores = [] %} 
+
+      {% for v in scores|filter(v => v is not empty) -%} 
+
+      {% set full_scores = full_scores|merge([v]) %} 
+
+      {% endfor %}
+
+      {% if full_scores|length > 0 %} 
+
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+
+      {% set raw_score = raw_score/(full_scores|length)  %}
+
+      {% set score = ((raw_score-1)/3)*100  %}
+
+      {{score}}  
+
+      {% else %} 
+
+      {% set score = '' %} 
+
+      {{ score }} 
+
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_teeth_problems:
+    "#type": computed_twig
+    "#title": hn43_teeth_problems
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q39, data.hn43_q40, data.hn43_q73] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_dry_mouth:
+    "#type": computed_twig
+    "#title": hn43_dry_mouth
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q42, data.hn43_q43] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_senses_problem:
+    "#type": computed_twig
+    "#title": hn43_senses_problem
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q44,data.hn43_q45] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_speech_problem:
+    "#type": computed_twig
+    "#title": hn43_speech_problem
+    "#display_on": view
+    "#template": >-
+      {% set scores = [data.hn43_q47,data.hn43_q55, data.hn43_q56,
+      data.hn43_q57, data.hn43_q58] %} 
+
+      {% set full_scores = [] %} 
+
+      {% for v in scores|filter(v => v is not empty) -%} 
+
+      {% set full_scores = full_scores|merge([v]) %} 
+
+      {% endfor %}
+
+      {% if full_scores|length > 0 %} 
+
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+
+      {% set raw_score = raw_score/(full_scores|length)  %}
+
+      {% set score = ((raw_score-1)/3)*100  %}
+
+      {{score}}  
+
+      {% else %} 
+
+      {% set score = '' %} 
+
+      {{ score }} 
+
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_body_image:
+    "#type": computed_twig
+    "#title": hn43_body_image
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q48,data.hn43_q49, data.hn43_q50] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_social_eating:
+    "#type": computed_twig
+    "#title": hn43_social_eating
+    "#display_on": view
+    "#template": >-
+      {% set scores = [data.hn43_q51, data.hn43_q52, data.hn43_q53,
+      data.hn43_q54] %} 
+
+      {% set full_scores = [] %} 
+
+      {% for v in scores|filter(v => v is not empty) -%} 
+
+      {% set full_scores = full_scores|merge([v]) %} 
+
+      {% endfor %}
+
+      {% if full_scores|length > 0 %} 
+
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+
+      {% set raw_score = raw_score/(full_scores|length)  %}
+
+      {% set score = ((raw_score-1)/3)*100  %}
+
+      {{score}}  
+
+      {% else %} 
+
+      {% set score = '' %} 
+
+      {{ score }} 
+
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_sexuality:
+    "#type": computed_twig
+    "#title": hn43_sexuality
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q60, data.hn43_q61] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_shoulder_problem:
+    "#type": computed_twig
+    "#title": hn43_shoulder_problem
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q62, data.hn43_q63] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_skin_problem:
+    "#type": computed_twig
+    "#title": hn43_skin_problem
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q65,data.hn43_q66,data.hn43_q67] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_fear_progression:
+    "#type": computed_twig
+    "#title": hn43_fear_progression
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q69,data.hn43_q70] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_problem_opening_mouth:
+    "#type": computed_twig
+    "#title": hn43_problem_opening_mouth
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q41] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_coughing:
+    "#type": computed_twig
+    "#title": hn43_coughing
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q46] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_social_contact:
+    "#type": computed_twig
+    "#title": hn43_social_contact
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.hn43_q59] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_neck_swelling:
+    "#type": computed_twig
+    "#title": hn43_neck_swelling
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.cx24_q64] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_weight_loss:
+    "#type": computed_twig
+    "#title": hn43_weight_loss
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.cx24_q68] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_wound_healing:
+    "#type": computed_twig
+    "#title": hn43_wound_healing
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.cx24_q71] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
+  hn43_neurological_problems:
+    "#type": computed_twig
+    "#title": hn43_neurological_problems
+    "#display_on": view
+    "#template": |-
+      {% set scores = [data.cx24_q72] %} 
+      {% set full_scores = [] %} 
+      {% for v in scores|filter(v => v is not empty) -%} 
+      {% set full_scores = full_scores|merge([v]) %} 
+      {% endfor %}
+      {% if full_scores|length > 0 %} 
+      {% set raw_score = full_scores|reduce((carry,v) => carry+v) %} 
+      {% set raw_score = raw_score/(full_scores|length)  %}
+      {% set score = ((raw_score-1)/3)*100  %}
+      {{score}}  
+      {% else %} 
+      {% set score = '' %} 
+      {{ score }} 
+      {% endif %}
+    "#whitespace": spaceless
+    "#store": true
